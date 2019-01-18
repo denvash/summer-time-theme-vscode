@@ -22,7 +22,7 @@
 		"dropdown.border": "#ffffff10",
 		"editor.background": "#2B303B",
 		"editor.foreground": "#a6accd",
-		"editor.lineHighlightBackground": "#00000050",
+		"editor.lineHighlightBackground": "#45354A",
 		"editor.selectionBackground": "#717cb450",
 		"editor.selectionHighlightBackground": "#ffcc0020",
 		"editorBracketMatch.background": "#2B303B",
