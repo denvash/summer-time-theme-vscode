@@ -1,0 +1,21 @@
+{
+    "name": "summer-time-theme",
+    "displayName": "summer-time-theme",
+    "description": "theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Summer Time",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Summer Time-color-theme.json"
+            }
+        ]
+    }
+}
