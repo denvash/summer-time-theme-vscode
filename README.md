@@ -14,12 +14,12 @@ The **minimalistic design** makes the developer to **concentrate** on what's imp
 
 ## Usage
 
-![#c5f015](https://placehold.it/15/F699D9/000000?text=+) `#F699D9` Keywords
-![#1589F0](https://placehold.it/15/AEE9F5/000000?text=+) `#AEE9F5` Variables
-![#c5f015](https://placehold.it/15/EBEA8B/000000?text=+) `#EBEA8B` Operators
-![#1589F0](https://placehold.it/15/A8F79A/000000?text=+) `#A8F79A` Static
-![#1589F0](https://placehold.it/15/ECF6FF/000000?text=+) `#ECF6FF` Functions
-![#1589F0](https://placehold.it/15/2B303B/000000?text=+) `#2B303B` Background
+- ![#F699D9](https://placehold.it/15/F699D9/000000?text=+) `#F699D9` Keywords
+- ![#AEE9F5](https://placehold.it/15/AEE9F5/000000?text=+) `#AEE9F5` Variables
+- ![#EBEA8B](https://placehold.it/15/EBEA8B/000000?text=+) `#EBEA8B` Operators
+- ![#A8F79A](https://placehold.it/15/A8F79A/000000?text=+) `#A8F79A` Static
+- ![#ECF6FF](https://placehold.it/15/ECF6FF/000000?text=+) `#ECF6FF` Functions
+- ![#2B303B](https://placehold.it/15/2B303B/000000?text=+) `#2B303B` Background
 
 ## Screenshots
 
