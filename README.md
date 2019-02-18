@@ -1,4 +1,4 @@
-# ![Logo](https://user-images.githubusercontent.com/27515937/52947198-b8277400-337e-11e9-84a2-2fc734ce7df3.png)
+# ![Logo](https://user-images.githubusercontent.com/27515937/52951387-5a008e00-338a-11e9-87c7-49f3ca3b539d.png)
 
 > Summer-Time is a modern Dark Material theme for VS-Code IDE.
 
@@ -14,35 +14,12 @@ The **minimalistic design** makes the developer to **concentrate** on what's imp
 
 ## Usage
 
-</div>
-    <div align="center" style="background-color: #F699D9; border: 1px solid black; margin: 5px">
-#F699D9 - Keywords
-</div>
-
-</div>
-    <div align="center" style="background-color: #AEE9F5; border: 1px solid black; margin: 5px">
-#AEE9F5 - Variables
-</div>
-
-</div>
-    <div align="center" style="background-color: #EBEA8B; border: 1px solid black; margin: 5px">
-#EBEA8B - Operators
-</div>
-
-</div>
-    <div align="center" style="background-color: #A8F79A; border: 1px solid black; margin: 5px">
-#A8F79A - Static Content
-</div>
-
-</div>
-    <div align="center" style="background-color: #ECF6FF; border: 1px solid black; margin: 5px">
-#ECF6FF - Functions and Strings
-</div>
-
-</div>
-    <div align="center" style="background-color: #2B303B; border: 1px solid black; margin: 5px; color: white">
-    #2B303B - Background
-</div>
+![#c5f015](https://placehold.it/15/F699D9/000000?text=+) `#F699D9` Keywords
+![#1589F0](https://placehold.it/15/AEE9F5/000000?text=+) `#AEE9F5` Variables
+![#c5f015](https://placehold.it/15/EBEA8B/000000?text=+) `#EBEA8B` Operators
+![#1589F0](https://placehold.it/15/A8F79A/000000?text=+) `#A8F79A` Static
+![#1589F0](https://placehold.it/15/ECF6FF/000000?text=+) `#ECF6FF` Functions
+![#1589F0](https://placehold.it/15/2B303B/000000?text=+) `#2B303B` Background
 
 ## Screenshots
 
