@@ -1,13 +1,30 @@
 {
-    "name": "summer-time-theme",
-    "displayName": "summer-time-theme",
-    "description": "theme",
-    "version": "0.0.1",
+    "name": "summer-time",
+    "displayName": "Summer Time",
+    "description": "🍧 A modern Dark Material theme for VS-Code IDE 🍦",
+    "version": "1.0.0",
+    "publisher": "Dennis Vash",
     "engines": {
-        "vscode": "^1.30.0"
+        "vscode": "^1.15.0"
+    },
+    "icon": "images/logo-titled.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/denvash/summer-time-theme-vscode"
+    },
+    "galleryBanner": {
+        "color": "#222145",
+        "theme": "dark"
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "Summer Time",
+        "Dark Theme",
+        "Material",
+        "Minimalistic",
+        "Theme"
     ],
     "contributes": {
         "themes": [
@@ -17,5 +34,28 @@
                 "path": "./themes/summer-time-vscode-theme.json"
             }
         ]
+    },
+    "devDependencies": {
+        "auto-changelog": "^1.11.0",
+        "nodemon": "^1.18.10",
+        "release-it": "^7.6.3"
+    },
+    "auto-changelog": {
+        "output": "CHANGELOG.md",
+        "commitLimit": false,
+        "package": true,
+        "replaceText": {
+            "FIX: ": "",
+            "NEW: ": "",
+            "IMPROVE: ": "",
+            "DOC: ": ""
+        }
+    },
+    "scripts": {
+        "start": "nodemon --exec vsce package",
+        "log": "auto-changelog && git add . && git ci -m ' 📖 DOC: Update the changelog' && git push",
+        "release": "release-it && npx vsce publish",
+        "release-major": "release-it major && npx vsce publish",
+        "release-dry": "release-it --dry-run"
     }
 }
