@@ -14,7 +14,7 @@
             {
                 "label": "Summer Time",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Summer Time-color-theme.json"
+                "path": "./themes/summer-time-vscode-theme.json"
             }
         ]
     }
