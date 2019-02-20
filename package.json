@@ -3,17 +3,17 @@
     "displayName": "Summer Time",
     "description": "🍧 A modern Dark Material theme for VS-Code IDE 🍦",
     "version": "1.0.0",
-    "publisher": "Dennis Vash",
+    "publisher": "DennisVash",
     "engines": {
         "vscode": "^1.15.0"
     },
-    "icon": "images/logo-titled.png",
+    "icon": "images/logo-clean.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/denvash/summer-time-theme-vscode"
     },
     "galleryBanner": {
-        "color": "#222145",
+        "color": "#2B303B",
         "theme": "dark"
     },
     "categories": [
