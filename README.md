@@ -55,6 +55,10 @@ The **minimalistic design** makes the developer to **concentrate** on what's imp
 
 ## Configuration
 
+- FiraCode and Hack fonts, find more at [Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts)
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time)
+- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+
 Recommended [VSCode Settings](https://code.visualstudio.com/docs/getstarted/settings):
 
 ```json
@@ -81,6 +85,7 @@ Recommended [VSCode Settings](https://code.visualstudio.com/docs/getstarted/sett
 "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
 
 // Editor
+"editor.fontFamily": "FuraCode Nerd Font, Light",
 "editor.mouseWheelZoom": true,
 "editor.snippetSuggestions": "top",
 "editor.autoClosingBrackets": "always",
@@ -109,12 +114,6 @@ Recommended [VSCode Settings](https://code.visualstudio.com/docs/getstarted/sett
 "material-icon-theme.folders.theme": "specific",
 "material-icon-theme.hidesExplorerArrows": true,
 ```
-
-### Extensions
-
-- [Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts)
-- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time)
-- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 
 ## Other Places
 
