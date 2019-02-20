@@ -1,10 +1,12 @@
-# ![Logo](https://user-images.githubusercontent.com/27515937/52951387-5a008e00-338a-11e9-87c7-49f3ca3b539d.png)
+# [![Logo](https://user-images.githubusercontent.com/27515937/52951387-5a008e00-338a-11e9-87c7-49f3ca3b539d.png)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time#overview)
 
 [![Version](https://vsmarketplacebadge.apphb.com/version-short/DennisVash.summer-time.svg?subject=Summer%20Time&colorA=2B303B&colorB=A8F79A)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time) [![Rating](https://vsmarketplacebadge.apphb.com/rating/DennisVash.summer-time.svg?label=Ratings&colorA=2B303B&colorB=AEE9F5)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time) [![Installs](https://vsmarketplacebadge.apphb.com/installs/DennisVash.summer-time.svg?label=Installs&colorA=2B303B&colorB=F699D9)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time) [![Downloads](https://vsmarketplacebadge.apphb.com/downloads/DennisVash.summer-time.svg?label=Downloads&colorA=2B303B&colorB=EBEA8B)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time)
 
-> Summer-Time is a modern Dark Material theme for VS-Code IDE.
+> A modern Dark Material Theme which lets you forget the summer while coding.
 
 The **minimalistic design** makes the developer to **concentrate** on what's important while **understanding** the code flow.
+
+*Look it up at [VS-Marketplace]([https://link](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time#overview)).*
 
 ## Color Palette
 
@@ -27,23 +29,28 @@ The **minimalistic design** makes the developer to **concentrate** on what's imp
 
 <div align="center">
 
-<br>
-
 ![JavaScript Syntax](https://img.shields.io/badge/SYNTAX-JavaScript-gray.svg?colorB=F699D9)
 ![JavaScript](images/example-syntax-js.png)
+
 <br>
+
 ![hr](images/hr.png)
+
 <br>
 
 ![React Syntax](https://img.shields.io/badge/SYNTAX-React-gray.svg?colorB=F699D9)
 ![react](images/example-syntax-react.png)
 ![stateless](/images/example-stateless.png)
+
 <br>
+
 ![hr](images/hr.png)
+
 <br>
 
 ![Editor](https://img.shields.io/badge/EDITOR-View-gray.svg?colorB=F699D9)
 ![example2](/images/example-editor-js.png)
+
 </div>
 
 ## Configuration
