@@ -27,6 +27,7 @@ class Sale {
 }
 
 let sale = new Sale(100)
+
 sale.decorate('fedtax')
 sale.decorate('quebec')
 console.log(sale.getPrice()) //112.88

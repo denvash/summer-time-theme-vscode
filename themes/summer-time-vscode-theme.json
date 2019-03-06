@@ -1158,7 +1158,8 @@
         {
             "scope": "variable.function.constructor",
             "settings": {
-                "foreground": "#8fdddf"
+                "fontStyle": "italic underline bold",
+                "foreground": "#ECF6FF"
             }
         },
         {
