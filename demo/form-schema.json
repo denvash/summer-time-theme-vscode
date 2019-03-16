@@ -1,0 +1,54 @@
+{
+  "level0": {
+    "level1": {
+      "level2": {
+        "level3": {
+          "level4": {
+            "level5": {
+              "level6": {
+                "level7": {
+                  "level8": {
+                    "level9": {}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": ["name"],
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "label": "Name",
+      "placeHolder": "Unique Identifier"
+    },
+    "nodes": {
+      "type": "array",
+      "properties": {
+        "addable": true,
+        "placeHolder": "Add Node"
+      },
+      "label": "Nodes",
+      "items": {
+        "type": "object",
+        "required": ["nodeName", "algorithmName"],
+        "properties": {
+          "nodeName": {
+            "type": "string",
+            "label": "",
+            "placeHolder": "Node Name"
+          },
+          "algorithName": {
+            "type": "string",
+            "label": "",
+            "placeHolder": "Algorithm Name"
+          }
+        }
+      }
+    }
+  }
+}

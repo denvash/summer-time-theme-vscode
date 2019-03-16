@@ -52,3 +52,5 @@ wpcs/
 # Project related
 #################
 images/inspire.png
+
+*.vsix
