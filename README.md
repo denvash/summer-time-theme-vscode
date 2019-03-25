@@ -6,7 +6,7 @@
 
 The **minimalistic design** makes the developer to **concentrate** on what's important while **understanding** the code flow.
 
-*Look it up at [VS-Marketplace]([https://link](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time#overview)).*
+*Look it up at [VS-Marketplace](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time#overview).*
 
 ## Color Palette
 
@@ -117,4 +117,4 @@ Recommended [VSCode Settings](https://code.visualstudio.com/docs/getstarted/sett
 
 ## Other Places
 
-- [🍦 JetBrains Theme](https://github.com/denvash/summer-time-theme-jetbrains)
+- [ JetBrains Theme](https://github.com/denvash/summer-time-theme-jetbrains)
