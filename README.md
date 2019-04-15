@@ -32,24 +32,38 @@ The **minimalistic design** makes the developer to **concentrate** on what's imp
 ![JavaScript Syntax](https://img.shields.io/badge/SYNTAX-JavaScript-gray.svg?colorB=F699D9)
 ![JavaScript](images/example-syntax-js.png)
 
-<br>
-
 ![hr](images/hr.png)
-
-<br>
 
 ![React Syntax](https://img.shields.io/badge/SYNTAX-React-gray.svg?colorB=F699D9)
-![react](images/example-syntax-react.png)
-![stateless](/images/example-stateless.png)
-
-<br>
+![hooks](/images/example-syntax-react-stories.png)
 
 ![hr](images/hr.png)
 
-<br>
+![react](images/example-syntax-react.png)
+
+![hr](images/hr.png)
+
+![example2](/images/example-syntax-redux-actions.png)
+
+![hr](images/hr.png)
 
 ![Editor](https://img.shields.io/badge/EDITOR-View-gray.svg?colorB=F699D9)
 ![example2](/images/example-editor-js.png)
+
+![hr](images/hr.png)
+
+![Editor](https://img.shields.io/badge/Syntax-JSON-gray.svg?colorB=F699D9)
+![example2](/images/example-syntax-json.png)
+
+![hr](images/hr.png)
+
+![Editor](https://img.shields.io/badge/Syntax-HTML-gray.svg?colorB=F699D9)
+![example2](/images/example-syntax-html.png)
+
+![hr](images/hr.png)
+
+![Editor](https://img.shields.io/badge/Syntax-Terminal-gray.svg?colorB=F699D9)
+![example2](/images/example-syntax-terminal.png)
 
 </div>
 
