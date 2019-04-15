@@ -282,11 +282,7 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment",
-        "string.quoted.docstring"
-      ],
+      "scope": ["comment", "string.quoted.docstring"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#676E95"
@@ -323,13 +319,6 @@
     {
       "name": "Invalid deprecated",
       "scope": ["invalid.deprecated"],
-      "settings": {
-        "foreground": "#C792EA"
-      }
-    },
-    {
-      "name": "Keyword, Storage",
-      "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
         "foreground": "#C792EA"
       }
@@ -951,6 +940,17 @@
       }
     },
     {
+      "name": "Storage in comment",
+      "scope": [
+        "storage.type.class.jsdoc",
+        "punctuation.definition.block.tag.jsdoc"
+      ],
+      "settings": {
+        "fontStyle": "italic bold",
+        "foreground": "#A3B5C3"
+      }
+    },
+    {
       "scope": "keyword.control",
       "settings": {
         "fontStyle": "italic",
@@ -996,7 +996,10 @@
       }
     },
     {
-      "scope": "punctuation.definition.comment",
+      "scope": [
+        "punctuation.definition.comment",
+        "punctuation.definition.block.rag.jsdoc"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#A3B5C3"

@@ -23,7 +23,7 @@ The **minimalistic design** makes the developer to **concentrate** on what's imp
 - ![#EBEA8B](https://placehold.it/15/EBEA8B/000000?text=+) `#EBEA8B` Operators
 - ![#A8F79A](https://placehold.it/15/A8F79A/000000?text=+) `#A8F79A` Static
 - ![#ECF6FF](https://placehold.it/15/ECF6FF/000000?text=+) `#ECF6FF` Functions
-- ![#2B303B](https://placehold.it/15/2B303B/000000?text=+) `#2B303B` Background
+- ![#232b33](https://placehold.it/15/232b33/000000?text=+) `#232b33` Background
 
 ## Screenshots
 
@@ -62,57 +62,134 @@ The **minimalistic design** makes the developer to **concentrate** on what's imp
 Recommended [VSCode Settings](https://code.visualstudio.com/docs/getstarted/settings):
 
 ```json
-// Work Bench
-"workbench.colorTheme": "Summer Time",
-"workbench.iconTheme": "material-icon-theme",
-"workbench.statusBar.feedback.visible": false,
-"workbench.statusBar.visible": true,
-"workbench.startupEditor": "newUntitledFile",
-"workbench.editor.enablePreview": false,
-"workbench.editor.highlightModifiedTabs": true,
+{
+  // Work Bench
+  "workbench.colorTheme": "Summer Time",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.statusBar.visible": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.highlightModifiedTabs": true,
 
-// Explorer
-"explorer.confirmDelete": false,
-"explorer.decorations.badges": false,
-"explorer.sortOrder": "type",
-"explorer.confirmDragAndDrop": false,
+  // Window
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": 1,
+  "window.titleBarStyle": "custom",
 
-// Terminal
-"terminal.integrated.cursorStyle": "underline",
-"terminal.integrated.cursorBlinking": true,
-"terminal.integrated.fontSize": 12,
-"terminal.integrated.fontWeight": "100",
-"terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+  // Explorer
+  "explorer.confirmDelete": false,
+  "explorer.sortOrder": "type",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.decorations.badges": false,
 
-// Editor
-"editor.fontFamily": "FuraCode Nerd Font, Light",
-"editor.mouseWheelZoom": true,
-"editor.snippetSuggestions": "top",
-"editor.autoClosingBrackets": "always",
-"editor.rulers": [
-    100
-],
-"editor.renderIndentGuides": false,
-"editor.fontLigatures": true,
-"editor.renderControlCharacters": false,
-"editor.autoClosingQuotes": "always",
-"editor.formatOnSave": false,
-"editor.formatOnType": true,
-"editor.fontSize": 15,
-"editor.lineHeight": 24.65,
-"editor.letterSpacing": 0.5,
-"editor.fontWeight": "400",
-"editor.cursorStyle": "line-thin",
-"editor.cursorWidth": 5,
-"editor.cursorBlinking": "solid",
-"editor.renderWhitespace": "all",
-"editor.glyphMargin": true,
-"editor.suggest.snippetsPreventQuickSuggestions": false,
+  // Editor
+  "editor.fontFamily": "FuraCode Nerd Font, Light",
+  "editor.mouseWheelZoom": true,
+  "editor.snippetSuggestions": "bottom",
+  "editor.autoClosingBrackets": "always",
+  "editor.rulers": [100],
+  "editor.renderIndentGuides": false,
+  "editor.fontLigatures": true,
+  "editor.renderControlCharacters": false,
+  "editor.autoClosingQuotes": "always",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 24.65,
+  "editor.letterSpacing": 0.5,
+  "editor.fontWeight": "400",
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorWidth": 5,
+  "editor.cursorBlinking": "solid",
+  "editor.renderWhitespace": "all",
+  "editor.glyphMargin": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
 
-// Icons
-"material-icon-theme.activeIconPack": "react_redux",
-"material-icon-theme.folders.theme": "specific",
-"material-icon-theme.hidesExplorerArrows": true,
+  // Terminal
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "BlexMono Nerd Font Mono, ExtraLight",
+  "terminal.integrated.rendererType": "dom",
+  "terminal.integrated.fontWeightBold": "normal",
+
+  // Files
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "files.associations": {
+    "*.react.js": "javascriptreact",
+    "*.stories.js": "javascriptreact",
+    "*.js": "javascript"
+  },
+
+  // Material Icons
+  "material-icon-theme.activeIconPack": "react_redux",
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.folders.color": "#F699D9",
+  "material-icon-theme.files.associations": {
+    "*.ts": "typescript",
+    "fileName.ts": "angular",
+    "*.react.js": "react"
+  },
+
+  // Sync
+  "sync.gist": "37489160d4242adee13d821d95858f97",
+  "sync.autoUpload": true,
+  "sync.autoDownload": true,
+  "sync.quietSync": false,
+
+  // Git
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  // Prettier
+  "prettier.eslintIntegration": true,
+  "prettier.singleQuote": true,
+
+  // Eslint
+  "eslint.autoFixOnSave": true,
+  "eslint.enable": true,
+  "eslint.run": "onType",
+
+  // SOP's Import Cost Extension Settings.
+  "importCost.largePackageColor": "#F699D9",
+  "importCost.mediumPackageColor": "#EBEA8B",
+  "importCost.smallPackageColor": "#EBEA8B",
+
+  // Better comments
+  "better-comments.tags": [
+    {
+      "tag": "*",
+      "color": "#EBEA8B",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    }
+  ],
+
+  // Bookmarks
+  "numberedBookmarks.gutterIconFillColor": "#F699D9",
+  "numberedBookmarks.gutterIconNumberColor": "#000",
+
+  // Others
+  "javascript.format.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "breadcrumbs.enabled": true,
+  "debug.toolBarLocation": "docked",
+  "markdown-preview-enhanced.enableTypographer": true,
+  "svg.preview.autoOpen": true
+}
+
 ```
 
 ## Other Places
