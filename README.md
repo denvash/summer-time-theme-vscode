@@ -110,7 +110,7 @@ Recommended [VSCode Settings](https://code.visualstudio.com/docs/getstarted/sett
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.fontFamily": "BlexMono Nerd Font Mono, ExtraLight",
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono, ExtraLight",
   "terminal.integrated.rendererType": "dom",
   "terminal.integrated.fontWeightBold": "normal",
 
