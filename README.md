@@ -30,11 +30,13 @@ The **minimalistic design** makes the developer to **concentrate** on what's imp
 <div align="center">
 
 ![JavaScript Syntax](https://img.shields.io/badge/SYNTAX-JavaScript-gray.svg?colorB=F699D9)
+
 ![1](images/example-syntax-js.png)
 
 ![hr](images/hr.png)
 
 ![React Syntax](https://img.shields.io/badge/SYNTAX-React-gray.svg?colorB=F699D9)
+
 ![2](/images/example-syntax-react-stories.png)
 
 ![hr](images/hr.png)
@@ -48,6 +50,7 @@ The **minimalistic design** makes the developer to **concentrate** on what's imp
 ![hr](images/hr.png)
 
 ![Editor](https://img.shields.io/badge/EDITOR-View-gray.svg?colorB=F699D9)
+
 ![5](/images/example-editor-js.png)
 
 ![hr](images/hr.png)
@@ -59,11 +62,13 @@ The **minimalistic design** makes the developer to **concentrate** on what's imp
 ![hr](images/hr.png)
 
 ![Editor](https://img.shields.io/badge/Syntax-HTML-gray.svg?colorB=F699D9)
+
 ![7](/images/example-syntax-html.png)
 
 ![hr](images/hr.png)
 
 ![Editor](https://img.shields.io/badge/Syntax-Terminal-gray.svg?colorB=F699D9)
+
 ![8](/images/example-syntax-terminal.png)
 
 </div>
