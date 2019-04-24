@@ -292,7 +292,7 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#A3B5C3"
+        "foreground": "#ECF6FF"
       }
     },
     {
@@ -313,14 +313,14 @@
       "name": "Invalid",
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "#FF5370"
+        "foreground": "#eb7185"
       }
     },
     {
       "name": "Invalid deprecated",
       "scope": ["invalid.deprecated"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#eb7185"
       }
     },
     {
@@ -365,7 +365,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#EBEA8B"
+        "foreground": "#AEE9F5"
       }
     },
     {
@@ -414,7 +414,8 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#A8F79A"
+        "fontStyle": "italic bold",
+        "foreground": "#ECF6FF"
       }
     },
     {
@@ -440,6 +441,20 @@
       ],
       "settings": {
         "fontStyle": "bold",
+        "foreground": "#ECF6FF"
+      }
+    },
+    {
+      "name": "JSX",
+      "scope": ["meta.jsx.js"],
+      "settings": {
+        "foreground": "#ECF6FF"
+      }
+    },
+    {
+      "name": "TSX",
+      "scope": ["source.tsx", "meta.decorator.tsx"],
+      "settings": {
         "foreground": "#ECF6FF"
       }
     },
@@ -477,7 +492,8 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#B2CCD6"
+        "fontStyle": "bold",
+        "foreground": "#ECF6FF"
       }
     },
     {
@@ -489,7 +505,8 @@
         "source.stylus support.constant"
       ],
       "settings": {
-        "foreground": "#FFEE80"
+        "fontStyle": "italic",
+        "foreground": "#ECF6FF"
       }
     },
     {
@@ -656,7 +673,6 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "fontStyle": "",
         "foreground": "#EBEA8B"
       }
     },
@@ -790,7 +806,7 @@
       "scope": ["markup.italic"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#f07178"
+        "foreground": "#ECF6FF"
       }
     },
     {
@@ -852,7 +868,7 @@
       "scope": ["string.other.link.title.markdown"],
       "settings": {
         "fontStyle": "",
-        "foreground": "#68f1b6"
+        "foreground": "#AEE9F5"
       }
     },
     {
@@ -883,14 +899,14 @@
         "markup.inline.raw.string.markdown"
       ],
       "settings": {
-        "foreground": "#A3B5C3"
+        "foreground": "#ECF6FF"
       }
     },
     {
       "name": "Markdown - Fenced Language",
       "scope": ["variable.language.fenced.markdown"],
       "settings": {
-        "foreground": "#A3B5C3"
+        "foreground": "#ECF6FF"
       }
     },
     {
@@ -905,7 +921,7 @@
       "name": "Markup - Table",
       "scope": ["markup.table"],
       "settings": {
-        "foreground": "#A3B5C3"
+        "foreground": "#ECF6FF"
       }
     },
     {
@@ -947,7 +963,7 @@
       ],
       "settings": {
         "fontStyle": "italic bold",
-        "foreground": "#A3B5C3"
+        "foreground": "#ECF6FF"
       }
     },
     {
@@ -978,12 +994,6 @@
       }
     },
     {
-      "scope": "entity.name.tag",
-      "settings": {
-        "foreground": "#AEE9F5"
-      }
-    },
-    {
       "scope": "variable.other.class.js",
       "settings": {
         "foreground": "#EBEA8B"
@@ -992,7 +1002,7 @@
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#A3B5C3"
+        "foreground": "#ECF6FF"
       }
     },
     {
@@ -1002,7 +1012,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#A3B5C3"
+        "foreground": "#ECF6FF"
       }
     },
     {
@@ -1030,7 +1040,7 @@
     {
       "scope": "markup.bold",
       "settings": {
-        "foreground": "#dde4c2"
+        "foreground": "#ECF6FF"
       }
     },
     {
@@ -1042,7 +1052,7 @@
     {
       "scope": "markup.underline",
       "settings": {
-        "foreground": "#8bf1f6"
+        "foreground": "#ECF6FF"
       }
     },
     {

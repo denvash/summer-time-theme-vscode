@@ -7,7 +7,7 @@
   "engines": {
     "vscode": "^1.15.0"
   },
-  "icon": "images/logo-clean.png",
+  "icon": "images/logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/denvash/summer-time-theme-vscode"
@@ -54,7 +54,7 @@
   },
   "scripts": {
     "start": "nodemon --exec vsce package",
-    "log": "auto-changelog && git add . && git ci -m ' 📖 DOC: Update the changelog' && git push",
+    "log": "auto-changelog && git add . && git push",
     "release": "release-it && npx vsce publish",
     "release-major": "release-it major && npx vsce publish",
     "release-dry": "release-it --dry-run"
