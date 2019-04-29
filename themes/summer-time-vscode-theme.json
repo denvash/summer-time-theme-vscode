@@ -281,14 +281,6 @@
   },
   "tokenColors": [
     {
-      "name": "Comment",
-      "scope": ["comment", "string.quoted.docstring"],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#676E95"
-      }
-    },
-    {
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
@@ -471,14 +463,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#B2CCD6"
-      }
-    },
-    {
-      "name": "Entity Types",
-      "scope": ["support.type"],
-      "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#AEE9F5"
       }
     },
     {
@@ -981,13 +966,6 @@
       }
     },
     {
-      "scope": "support.type",
-      "settings": {
-        "fontStyle": "italic bold",
-        "foreground": "#c7ddd1"
-      }
-    },
-    {
       "scope": "variable.parameter",
       "settings": {
         "foreground": "#EBEA8B"
@@ -1002,7 +980,7 @@
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#ECF6FF"
+        "foreground": "#A3B5C3"
       }
     },
     {
@@ -1012,7 +990,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#ECF6FF"
+        "foreground": "#A3B5C3"
       }
     },
     {
