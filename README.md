@@ -9,7 +9,7 @@
 > A modern Dark Material Theme which lets you forget the summer while coding.
 
 <div align="center">
-    
+
 ![s1](/images/screenshot_react.png)
 
 ![s1](/images/screenshot_editor.png)
@@ -17,8 +17,6 @@
 </div>
 
 ## Color Palette
-
-
 
 <div align="center">
 
