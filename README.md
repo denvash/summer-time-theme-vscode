@@ -1,22 +1,24 @@
+<div align="center">
+
 # [![Logo](/images/logo-github.png)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time#overview)
 
 [![Version](https://vsmarketplacebadge.apphb.com/version-short/DennisVash.summer-time.svg?subject=Summer%20Time&colorA=2B303B&colorB=A8F79A)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time) [![Rating](https://vsmarketplacebadge.apphb.com/rating/DennisVash.summer-time.svg?label=Ratings&colorA=2B303B&colorB=AEE9F5)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time) [![Installs](https://vsmarketplacebadge.apphb.com/installs/DennisVash.summer-time.svg?label=Installs&colorA=2B303B&colorB=F699D9)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time) [![Downloads](https://vsmarketplacebadge.apphb.com/downloads/DennisVash.summer-time.svg?label=Downloads&colorA=2B303B&colorB=EBEA8B)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time)
 
+</div>
+
 > A modern Dark Material Theme which lets you forget the summer while coding.
 
-The **minimalistic design** makes the developer to **concentrate** on what's important while **understanding** the code flow.
+![s1](/images/screenshot_react.png)
 
-*Look it up at [VS-Marketplace](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time#overview).*
+![s1](/images/screenshot_editor.png)
 
 ## Color Palette
 
 <div align="center">
-    <a>
-        <img src="https://user-images.githubusercontent.com/27515937/52947285-f4f36b00-337e-11e9-9d42-06537443c648.png" alt="Summer-Time-Logo" width="300px" />
-    </a>
+    <img src="https://user-images.githubusercontent.com/27515937/52947285-f4f36b00-337e-11e9-9d42-06537443c648.png" alt="Summer-Time-Logo" width="300px" />
 </div>
 
-## Usage
+The **minimalistic design** makes the developer to **concentrate** on what's important while **understanding** the code flow.
 
 - ![#F699D9](https://placehold.it/15/F699D9/000000?text=+) `#F699D9` Keywords
 - ![#AEE9F5](https://placehold.it/15/AEE9F5/000000?text=+) `#AEE9F5` Variables
@@ -25,61 +27,13 @@ The **minimalistic design** makes the developer to **concentrate** on what's imp
 - ![#ECF6FF](https://placehold.it/15/ECF6FF/000000?text=+) `#ECF6FF` Functions
 - ![#282c34](https://placehold.it/15/282c34/000000?text=+) `#282c34` Background
 
-## Screenshots
-
-<div align="center">
-
-![JavaScript Syntax](https://img.shields.io/badge/SYNTAX-JavaScript-gray.svg?colorB=F699D9)
-
-![1](images/example-syntax-js.png)
-
-![hr](images/hr.png)
-
-![React Syntax](https://img.shields.io/badge/SYNTAX-React-gray.svg?colorB=F699D9)
-
-![2](/images/example-syntax-react-stories.png)
-
-![hr](images/hr.png)
-
-![3](images/example-syntax-react.png)
-
-![hr](images/hr.png)
-
-![4](/images/example-syntax-redux-actions.png)
-
-![hr](images/hr.png)
-
-![Editor](https://img.shields.io/badge/EDITOR-View-gray.svg?colorB=F699D9)
-
-![5](/images/example-editor-js.png)
-
-![hr](images/hr.png)
-
-![Editor](https://img.shields.io/badge/Syntax-JSON-gray.svg?colorB=F699D9)
-
-![6](/images/example-syntax-json.png)
-
-![hr](images/hr.png)
-
-![Editor](https://img.shields.io/badge/Syntax-HTML-gray.svg?colorB=F699D9)
-
-![7](/images/example-syntax-html.png)
-
-![hr](images/hr.png)
-
-![Editor](https://img.shields.io/badge/Syntax-Terminal-gray.svg?colorB=F699D9)
-
-![8](/images/example-syntax-terminal.png)
-
-</div>
-
 ## Configuration
 
-- FiraCode and Hack fonts, find more at [Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts)
-- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time)
-- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+:eight_pointed_black_star: FiraCode and Hack fonts, find more at [Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts)
+:eight_pointed_black_star: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time)
+:eight_pointed_black_star: [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 
-Recommended [VSCode Settings](https://code.visualstudio.com/docs/getstarted/settings):
+:construction_worker: [VSCode Settings](https://code.visualstudio.com/docs/getstarted/settings):
 
 ```json
 // Work Bench
@@ -208,6 +162,12 @@ Recommended [VSCode Settings](https://code.visualstudio.com/docs/getstarted/sett
 "markdown-preview-enhanced.enableTypographer": true,
 "svg.preview.autoOpen": true
 ```
+
+## Installation
+
+👉 Via [Marketplace](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time#overview)
+👉 `File > Preferences > Color Theme`
+👉 Quick open (`Ctrl+P`) `ext install miguelsolorio.min-theme`
 
 ## Other Places
 
