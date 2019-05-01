@@ -29,9 +29,11 @@ The **minimalistic design** makes the developer to **concentrate** on what's imp
 
 ## Configuration
 
-:eight_pointed_black_star: FiraCode and Hack fonts, find more at [Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts)
-:eight_pointed_black_star: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time)
-:eight_pointed_black_star: [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+:strawberry: FiraCode and Hack fonts, find more at [Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts)
+
+:strawberry: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time)
+
+:strawberry: [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 
 :construction_worker: [VSCode Settings](https://code.visualstudio.com/docs/getstarted/settings):
 
@@ -166,7 +168,9 @@ The **minimalistic design** makes the developer to **concentrate** on what's imp
 ## Installation
 
 👉 Via [Marketplace](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time#overview)
+
 👉 `File > Preferences > Color Theme`
+
 👉 Quick open (`Ctrl+P`) `ext install miguelsolorio.min-theme`
 
 ## Other Places
