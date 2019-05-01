@@ -14,8 +14,12 @@
 
 ## Color Palette
 
+
+
 <div align="center">
-    <img src="https://user-images.githubusercontent.com/27515937/52947285-f4f36b00-337e-11e9-9d42-06537443c648.png" alt="Summer-Time-Logo" width="300px" />
+
+![p](/images/palette.png)
+
 </div>
 
 The **minimalistic design** makes the developer to **concentrate** on what's important while **understanding** the code flow.
