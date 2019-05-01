@@ -2,15 +2,19 @@
 
 # [![Logo](/images/logo-github.png)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time#overview)
 
-[![Version](https://vsmarketplacebadge.apphb.com/version-short/DennisVash.summer-time.svg?subject=Summer%20Time&colorA=2B303B&colorB=A8F79A)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time) [![Rating](https://vsmarketplacebadge.apphb.com/rating/DennisVash.summer-time.svg?label=Ratings&colorA=2B303B&colorB=AEE9F5)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time) [![Installs](https://vsmarketplacebadge.apphb.com/installs/DennisVash.summer-time.svg?label=Installs&colorA=2B303B&colorB=F699D9)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time) [![Downloads](https://vsmarketplacebadge.apphb.com/downloads/DennisVash.summer-time.svg?label=Downloads&colorA=2B303B&colorB=EBEA8B)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time)
-
 </div>
+
+[![Version](https://vsmarketplacebadge.apphb.com/version-short/DennisVash.summer-time.svg?subject=Summer%20Time&colorA=2B303B&colorB=A8F79A)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time) [![Rating](https://vsmarketplacebadge.apphb.com/rating/DennisVash.summer-time.svg?label=Ratings&colorA=2B303B&colorB=AEE9F5)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time) [![Installs](https://vsmarketplacebadge.apphb.com/installs/DennisVash.summer-time.svg?label=Installs&colorA=2B303B&colorB=F699D9)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time) [![Downloads](https://vsmarketplacebadge.apphb.com/downloads/DennisVash.summer-time.svg?label=Downloads&colorA=2B303B&colorB=EBEA8B)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time)
 
 > A modern Dark Material Theme which lets you forget the summer while coding.
 
+<div align="center">
+    
 ![s1](/images/screenshot_react.png)
 
 ![s1](/images/screenshot_editor.png)
+
+</div>
 
 ## Color Palette
 
@@ -33,9 +37,11 @@ The **minimalistic design** makes the developer to **concentrate** on what's imp
 
 ## Configuration
 
-:eight_pointed_black_star: FiraCode and Hack fonts, find more at [Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts)
-:eight_pointed_black_star: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time)
-:eight_pointed_black_star: [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+:strawberry: FiraCode and Hack fonts, find more at [Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts)
+
+:strawberry: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time)
+
+:strawberry: [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 
 :construction_worker: [VSCode Settings](https://code.visualstudio.com/docs/getstarted/settings):
 
@@ -170,7 +176,9 @@ The **minimalistic design** makes the developer to **concentrate** on what's imp
 ## Installation
 
 👉 Via [Marketplace](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time#overview)
+
 👉 `File > Preferences > Color Theme`
+
 👉 Quick open (`Ctrl+P`) `ext install miguelsolorio.min-theme`
 
 ## Other Places
