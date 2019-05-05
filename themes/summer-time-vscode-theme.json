@@ -343,6 +343,14 @@
       }
     },
     {
+      "name": "Support types",
+      "scope": ["support.type", "support.type.object"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#ECF6FF"
+      }
+    },
+    {
       "name": "Keyword Control",
       "scope": ["keyword.control"],
       "settings": {

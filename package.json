@@ -54,9 +54,7 @@
   },
   "scripts": {
     "start": "nodemon --exec vsce package",
-    "log": "auto-changelog && git add . && git push",
-    "release": "release-it && npx vsce publish",
-    "release-major": "release-it major && npx vsce publish",
-    "release-dry": "release-it --dry-run"
+    "log": "auto-changelog",
+    "release": "release-it"
   }
 }
