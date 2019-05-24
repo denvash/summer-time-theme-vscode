@@ -177,7 +177,7 @@ The **minimalistic design** makes the developer to **concentrate** on what's imp
 
 👉 `File > Preferences > Color Theme`
 
-👉 Quick open (`Ctrl+P`) `ext install miguelsolorio.min-theme`
+👉 Quick open (`Ctrl+P`) `ext install DennisVash.summer-time`
 
 ## Other Places
 
