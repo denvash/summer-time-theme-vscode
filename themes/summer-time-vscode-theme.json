@@ -339,7 +339,26 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#ECF6FF"
+      }
+    },
+    {
+      "name": "Import",
+      "scope": [
+        "keyword.control.import",
+        "keyword.control.from",
+        "keyword.control.export",
+        "keyword.control.as"
+      ],
+      "settings": {
+        "foreground": "#EBEA8B"
+      }
+    },
+    {
+      "name": "meta",
+      "scope": ["meta.jsx.children"],
+      "settings": {
+        "foreground": "#ECF6FF"
       }
     },
     {
@@ -365,6 +384,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
+        "fontStyle": "italic bold",
         "foreground": "#AEE9F5"
       }
     },
@@ -392,7 +412,60 @@
       "name": "Variables constant",
       "scope": ["variable.other.constant"],
       "settings": {
+        "foreground": "#AEE9F5"
+      }
+    },
+    {
+      "name": "Variables read-write",
+      "scope": ["variable.other.readwrite"],
+      "settings": {
+        "foreground": "#AEE9F5"
+      }
+    },
+    {
+      "name": "Support",
+      "scope": ["support.variable.object"],
+      "settings": {
+        "fontStyle": "italic bold",
+        "foreground": "#ECF6FF"
+      }
+    },
+    {
+      "name": "Variables Object",
+      "scope": ["variable.other.object"],
+      "settings": {
+        "foreground": "#AEE9F5"
+      }
+    },
+    {
+      "name": "Support property",
+      "scope": ["support.variable.property"],
+      "settings": {
         "foreground": "#A8F79A"
+      }
+    },
+    {
+      "name": "Variables Object",
+      "scope": ["variable.other.property"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ECF6FF"
+      }
+    },
+    {
+      "name": "Variables read-write alias",
+      "scope": ["variable.other.readwrite.alias"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#AEE9F5"
+      }
+    },
+    {
+      "name": "Object-literal key",
+      "scope": ["meta.object-literal.key"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#ECF6FF"
       }
     },
     {
@@ -459,11 +532,10 @@
       }
     },
     {
-      "name": "Class, Support",
+      "name": "Support",
       "scope": [
         "entity.name",
         "support.type",
-        "support.class",
         "support.orther.namespace.use.php",
         "meta.use.php",
         "support.other.namespace.php",
@@ -629,7 +701,8 @@
       "name": "Escape Characters",
       "scope": ["constant.character.escape"],
       "settings": {
-        "foreground": "#89DDFF"
+        "fontStyle": "italic",
+        "foreground": "#A8F79A"
       }
     },
     {
@@ -1152,6 +1225,13 @@
       "settings": {
         "fontStyle": "italic bold",
         "foreground": "#ECF6FF"
+      }
+    },
+    {
+      "scope": "support.class.component",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#AEE9F5"
       }
     },
     {
