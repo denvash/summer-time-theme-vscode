@@ -32,7 +32,7 @@ In next screenshot, try to understand variable types by their **COLOR** (find `c
 
 </div>
 
-**Minimalistic design** __//__ **Concentrate** on what's important __//__ **Understand** the code flow.
+**Minimalistic** design __//__ **Concentrate** on what's important __//__ **Understand** the code flow.
 
 - ![#F699D9](https://placehold.it/15/F699D9/000000?text=+) `#F699D9` Keywords, Operators
 - ![#AEE9F5](https://placehold.it/15/AEE9F5/000000?text=+) `#AEE9F5` Read-Write Variables
