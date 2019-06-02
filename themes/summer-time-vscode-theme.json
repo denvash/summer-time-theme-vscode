@@ -412,7 +412,14 @@
       "name": "Variables constant",
       "scope": ["variable.other.constant"],
       "settings": {
-        "foreground": "#AEE9F5"
+        "foreground": "#EBEA8B"
+      }
+    },
+    {
+      "name": "Variables constant",
+      "scope": ["variable.other.constant.object"],
+      "settings": {
+        "foreground": "#A8F79A"
       }
     },
     {
@@ -434,6 +441,7 @@
       "name": "Variables Object",
       "scope": ["variable.other.object"],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#AEE9F5"
       }
     },
@@ -449,7 +457,7 @@
       "scope": ["variable.other.property"],
       "settings": {
         "fontStyle": "",
-        "foreground": "#ECF6FF"
+        "foreground": "#EBEA8B"
       }
     },
     {
@@ -498,7 +506,7 @@
         "variable.parameter"
       ],
       "settings": {
-        "foreground": "#AEE9F5"
+        "foreground": "#ECF6FF"
       }
     },
     {
@@ -1047,12 +1055,6 @@
       }
     },
     {
-      "scope": "variable.parameter",
-      "settings": {
-        "foreground": "#EBEA8B"
-      }
-    },
-    {
       "scope": "variable.other.class.js",
       "settings": {
         "foreground": "#EBEA8B"
@@ -1123,7 +1125,7 @@
     {
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#EBEA8B"
+        "foreground": "#DD8CC6"
       }
     },
     {
