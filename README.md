@@ -32,7 +32,7 @@ In next screenshot, try to understand variable types by their **COLOR** (find `c
 
 </div>
 
-The **minimalistic design** makes the developer to **concentrate** on what's important while **understanding** the code flow.
+**Minimalistic design** __//__ **Concentrate** on what's important __//__ **Understand** the code flow.
 
 - ![#F699D9](https://placehold.it/15/F699D9/000000?text=+) `#F699D9` Keywords, Operators
 - ![#AEE9F5](https://placehold.it/15/AEE9F5/000000?text=+) `#AEE9F5` Read-Write Variables
@@ -52,7 +52,6 @@ The **minimalistic design** makes the developer to **concentrate** on what's imp
 :construction_worker: [VSCode Settings](https://code.visualstudio.com/docs/getstarted/settings):
 
 ```json
-{
   // Workbench
   "workbench.colorTheme": "Summer Time",
   "workbench.iconTheme": "material-icon-theme",
@@ -228,7 +227,6 @@ The **minimalistic design** makes the developer to **concentrate** on what's imp
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.hovers.enabled": false,
   "gitlens.codeLens.enabled": false
-}
 ```
 
 ## Installation
