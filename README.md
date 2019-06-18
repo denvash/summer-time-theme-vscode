@@ -20,9 +20,9 @@
 
 > Detailed tokens coloring.
 
-In next screenshot, try to understand variable types by their **COLOR** (find `const`,`properties`, `functions`, `objects`, `object keys` etc.)
+In next screenshot, try figuring out the variable types by their **COLOR** (find `const values`,`properties`, `functions`, `objects`, `object keys` etc.)
 
-> ![f](/images/screenshot_features.png)
+![f](/images/screenshot_features.png)
 
 ## Color Palette
 
