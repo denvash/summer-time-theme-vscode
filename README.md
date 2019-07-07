@@ -1,10 +1,24 @@
-<div align="center">
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time">
+    <img alt="Create-React-VSCode" src="https://i.imgur.com/NGCIh3d.png">
+  </a>
+</p>
 
-# [![Logo](/images/logo-github.png)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time#overview)
 
-</div>
-
-[![Version](https://vsmarketplacebadge.apphb.com/version-short/DennisVash.summer-time.svg?subject=Summer%20Time&colorA=2B303B&colorB=A8F79A)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time) [![Rating](https://vsmarketplacebadge.apphb.com/rating/DennisVash.summer-time.svg?label=Ratings&colorA=2B303B&colorB=AEE9F5)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time) [![Installs](https://vsmarketplacebadge.apphb.com/installs/DennisVash.summer-time.svg?label=Installs&colorA=2B303B&colorB=F699D9)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time) [![Downloads](https://vsmarketplacebadge.apphb.com/downloads/DennisVash.summer-time.svg?label=Downloads&colorA=2B303B&colorB=EBEA8B)](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time)
+<p align="center">
+  <!-- marketplace version -->
+  <a href="https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time">
+    <img alt="marketplace version" src="https://img.shields.io/vscode-marketplace/v/DennisVash.summer-time.svg?maxAge=3600&style=for-the-badge&labelColor=1C1E26&color=F699D9">
+  </a>
+  <!-- downloads -->
+  <a href="https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time">
+    <img alt="downloads" src="https://img.shields.io/visual-studio-marketplace/d/DennisVash.summer-time.svg?maxAge=3600&style=for-the-badge&labelColor=1C1E26&color=A8F79A">
+  </a>
+  <!-- rating -->
+  <a href="https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time">
+    <img alt="rating" src="https://img.shields.io/visual-studio-marketplace/stars/DennisVash.summer-time.svg?maxAge=86400&style=for-the-badge&labelColor=1C1E26&color=AEE9F5">
+  </a>
+</p>
 
 > A modern Dark Material Theme which lets you forget the summer while coding.
 
@@ -114,28 +128,6 @@ In next screenshot, try figuring out the variable types by their **COLOR** (find
   "terminal.integrated.rendererType": "dom",
   "terminal.integrated.fontWeightBold": "normal",
 
-  // Files
-  "files.autoSave": "onFocusChange",
-  "files.trimTrailingWhitespace": true,
-  "files.trimFinalNewlines": true,
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/node_modules": true
-  },
-  "files.associations": {
-    "*.react.js": "javascriptreact",
-    "*.stories.js": "javascriptreact",
-    "*.js": "javascript"
-  },
-
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-
   // Material Icons
   "material-icon-theme.activeIconPack": "react_redux",
   "material-icon-theme.folders.theme": "specific",
@@ -147,86 +139,19 @@ In next screenshot, try figuring out the variable types by their **COLOR** (find
     "*.react.js": "react"
   },
 
-  // Sync
-  "sync.gist": "37489160d4242adee13d821d95858f97",
-  "sync.autoUpload": true,
-  "sync.autoDownload": true,
-  "sync.quietSync": true,
-  "sync.forceDownload": false,
-
-  // Git
-  "git.autofetch": true,
-  "git.confirmSync": false,
-
-  // Prettier
-  "prettier.eslintIntegration": true,
-  "prettier.singleQuote": true,
-
-  // Eslint
-  "eslint.autoFixOnSave": true,
-  "eslint.enable": true,
-  "eslint.run": "onType",
-
   // SOP's Import Cost Extension Settings.
   "importCost.largePackageColor": "#F699D9",
   "importCost.mediumPackageColor": "#EBEA8B",
   "importCost.smallPackageColor": "#EBEA8B",
 
-  // Better comments
-  "better-comments.tags": [
-    {
-      "tag": "*",
-      "color": "#EBEA8B",
-      "strikethrough": false,
-      "backgroundColor": "transparent"
-    }
-  ],
-
-  // Bookmarks
-  "numberedBookmarks.gutterIconFillColor": "#F699D9",
-  "numberedBookmarks.gutterIconNumberColor": "#000",
-
   // Others
   "javascript.format.enable": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "cSpell.userWords": [
-    "Backend",
-    "Hackathon",
-    "Minimalistic",
-    "Sider",
-    "Vash",
-    "antd",
-    "syncronic",
-    "webhooks"
-  ],
   "breadcrumbs.enabled": true,
-
-  "debug.toolBarLocation": "docked",
-
-  "svg.preview.autoOpen": true,
-
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-
-  "showMusicMetrics": false,
-  "showGitMetrics": false,
-  "showWeeklyRanking": false,
 
   // Telemetry
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
-
-  // GitLens
-  "gitlens.views.repositories.location": "gitlens",
-  "gitlens.views.fileHistory.location": "gitlens",
-  "gitlens.views.lineHistory.location": "gitlens",
-  "gitlens.views.compare.location": "gitlens",
-  "gitlens.views.search.location": "gitlens",
-  "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.hovers.enabled": false,
-  "gitlens.codeLens.enabled": false
 ```
 
 ## Installation
