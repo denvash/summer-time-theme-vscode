@@ -1,3 +1,10 @@
+const StyledIcon = styled(Icon)`
+  svg {
+    height: calc(${({ dimension }) => dimension || '24px'} + 3vw);
+    width: calc(${({ dimension }) => dimension || '24px'} + 3vw);
+  }
+`;
+
 // I use this syntax when my component fits on one line
 const ListItem = props => <li className="list-item">{props.item.name}</li>
 
