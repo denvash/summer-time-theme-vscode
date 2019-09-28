@@ -1199,25 +1199,21 @@
       }
     },
     {
-      "scope": "text.html.markdown",
-      "settings": {
-        "foreground": "#f0f0f0"
-      }
-    },
-    {
-      "scope": "text.html.derivative",
-      "settings": {
-        "foreground": "#f0f0f0"
-      }
-    },
-    {
-      "scope": "markup.bold",
+      "scope": [
+        "markup.bold",
+        "meta.var.expr.js",
+        "text.html.derivative",
+        "meta.function.calc.css"
+      ],
       "settings": {
         "foreground": "#ECF6FF"
       }
     },
     {
-      "scope": "string.other.link",
+      "scope": [
+        "string.other.link",
+        "meta.property-list.scss"
+      ],
       "settings": {
         "foreground": "#A8F79A"
       }
