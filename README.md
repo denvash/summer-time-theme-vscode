@@ -53,6 +53,7 @@ In next screenshot, try figuring out the variable types by their **COLOR** (find
 - ![#EBEA8B](https://placehold.it/15/EBEA8B/000000?text=+) `#EBEA8B` Read Only Variables
 - ![#A8F79A](https://placehold.it/15/A8F79A/000000?text=+) `#A8F79A` Static
 - ![#ECF6FF](https://placehold.it/15/ECF6FF/000000?text=+) `#ECF6FF` Functions, Strings
+- ![#A3B5C3](https://placehold.it/15/A3B5C3/000000?text=+) `#A3B5C3` Functions, Strings
 - ![#282c34](https://placehold.it/15/282c34/000000?text=+) `#282c34` Background
 
 ## Configuration
