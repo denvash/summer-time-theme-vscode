@@ -62,99 +62,6 @@ In next screenshot, try figuring out the variable types by their **COLOR** (find
 
 🍦 [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time)
 
-🍨 [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
-
-:construction_worker: [VSCode Settings](https://code.visualstudio.com/docs/getstarted/settings):
-
-```json
-  // Workbench
-  "workbench.colorTheme": "Summer Time",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.statusBar.feedback.visible": false,
-  "workbench.statusBar.visible": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.settings.enableNaturalLanguageSearch": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-
-  // Window
-  "window.menuBarVisibility": "toggle",
-  "window.zoomLevel": 1,
-  "window.titleBarStyle": "custom",
-  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-
-  // Explorer
-  "explorer.confirmDelete": false,
-  "explorer.sortOrder": "type",
-  "explorer.confirmDragAndDrop": false,
-  "explorer.decorations.badges": false,
-
-  // Editor
-  "editor.fontFamily": "FuraCode Nerd Font, Light",
-  "editor.mouseWheelZoom": true,
-  "editor.snippetSuggestions": "inline",
-  "editor.autoClosingBrackets": "always",
-  "editor.rulers": [100],
-  "editor.renderIndentGuides": false,
-  "editor.fontLigatures": true,
-  "editor.renderControlCharacters": false,
-  "editor.autoClosingQuotes": "always",
-  "editor.formatOnSave": true,
-  "editor.formatOnType": false,
-  "editor.fontSize": 15,
-  "editor.lineHeight": 24.65,
-  "editor.letterSpacing": 0.5,
-  "editor.fontWeight": "400",
-  "editor.cursorStyle": "line-thin",
-  "editor.cursorWidth": 5,
-  "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.renderWhitespace": "all",
-  "editor.glyphMargin": true,
-  "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "editor.suggestSelection": "first",
-  "editor.smoothScrolling": true,
-  "editor.minimap.renderCharacters": false,
-  "editor.minimap.maxColumn": 200,
-  "editor.minimap.showSlider": "always",
-  "editor.detectIndentation": true,
-  "editor.insertSpaces": true,
-
-  // Terminal
-  "terminal.integrated.cursorStyle": "underline",
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.fontFamily": "BlexMono Nerd Font Mono, ExtraLight",
-  "terminal.integrated.rendererType": "dom",
-  "terminal.integrated.fontWeightBold": "normal",
-
-  // Material Icons
-  "material-icon-theme.activeIconPack": "react_redux",
-  "material-icon-theme.folders.theme": "specific",
-  "material-icon-theme.hidesExplorerArrows": true,
-  "material-icon-theme.folders.color": "#F699D9",
-  "material-icon-theme.files.associations": {
-    "*.ts": "typescript",
-    "fileName.ts": "angular",
-    "*.react.js": "react"
-  },
-
-  // SOP's Import Cost Extension Settings.
-  "importCost.largePackageColor": "#F699D9",
-  "importCost.mediumPackageColor": "#EBEA8B",
-  "importCost.smallPackageColor": "#EBEA8B",
-
-  // Others
-  "javascript.format.enable": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "breadcrumbs.enabled": true,
-
-  // Telemetry
-  "telemetry.enableCrashReporter": false,
-  "telemetry.enableTelemetry": false,
-```
-
 ## Installation
 
 👉 Via [Marketplace](https://marketplace.visualstudio.com/items?itemName=DennisVash.summer-time#overview)
@@ -165,4 +72,6 @@ In next screenshot, try figuring out the variable types by their **COLOR** (find
 
 ## Other Places
 
+
+- 🍨 [create-react-vscode Extension Pack](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 - [JetBrains-Theme](https://github.com/denvash/summer-time-theme-jetbrains)
