@@ -171,41 +171,39 @@
     {
       "name": "Color-1",
       "scope": [
-        "variable",
-        "string constant.other.placeholder",
-        "meta.group.braces.curly",
-        "constant.numeric",
-        "markup.underline",
+        "constant.other.color",
+        "constant.other.color",
+        "keyword.other.substitution",
+        "keyword.other.template",
         "markup.bold",
-        "meta.var.expr.js",
-        "text.html.derivative",
-        "meta.function.calc.css",
-        "markup.table",
         "markup.fenced_code.block.markdown",
         "markup.inline.raw.string.markdown",
-        "variable.language.fenced.markdown",
-        "meta.jsx.js",
-        "variable.parameter.function.language.special",
-        "variable.parameter",
-        "meta.var.expr.js.jsx",
-        "source.js.jsx",
+        "markup.table",
+        "markup.underline",
+        "meta.decorator.tsx",
+        "meta.function.calc.css",
+        "meta.group.braces.curly",
         "meta.jsx.children",
-        "constant.other.color",
-        "constant.other.color",
-        "punctuation",
+        "meta.jsx.js",
         "meta.tag",
-        "punctuation.definition.tag",
-        "punctuation.separator.inheritance.php",
-        "punctuation.definition.tag.html",
+        "meta.var.expr.js.jsx",
+        "meta.var.expr.js",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag",
         "punctuation.section.embedded",
-        "keyword.other.template",
-        "keyword.other.substitution",
+        "punctuation.separator.inheritance.php",
+        "punctuation",
         "source.css.scss",
+        "source.js.jsx",
+        "source.json",
         "source.tsx",
-        "meta.decorator.tsx",
-        "source.json"
+        "string constant.other.placeholder",
+        "text.html.derivative",
+        "variable.language.fenced.markdown",
+        "variable.other.object.property.js.jsx",
+        "variable.other.readwrite.js.jsx"
       ],
       "settings": {
         "foreground": "#ECF6FF"
@@ -215,7 +213,8 @@
       "name": "Color-1 bold",
       "scope": [
         "support.type.object",
-        "meta.object-literal.key",
+        "meta.object-literal.key.js",
+        "meta.object-literal.key.js.jsx",
         "constant.other.symbol",
         "constant.other.key",
         "entity.other.inherited-class",
@@ -233,13 +232,13 @@
     {
       "name": "Color-1 italic",
       "scope": [
+        "markup.italic",
+        "meta.property-value",
         "source.css constant",
         "source.css support.constant",
         "source.stylus constant",
         "source.stylus support.constant",
-        "markup.italic",
-        "string",
-        "meta.property-value"
+        "string"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -258,7 +257,6 @@
       "name": "Color-1 italic bold",
       "scope": [
         "support.variable.object",
-        "constant.numeric",
         "constant.language",
         "support.constant",
         "constant.character",
@@ -294,29 +292,30 @@
     {
       "name": "Color-2",
       "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-        "variable.other.class.js",
-        "constant.other.reference.link.markdown",
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-        "entity.other.attribute-name.class",
+        "constant.numeric.decimal.js.jsx",
         "constant.other.php",
-        "variable.other.property",
-        "keyword.control.import",
-        "keyword.control.from",
-        "keyword.control.export",
-        "keyword.control.as",
-        "variable.other.constant",
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-        "source.css string",
-        "source.css punctuation.definition.string",
-        "source.stylus string",
-        "source.stylus punctuation.definition.string",
+        "constant.other.reference.link.markdown",
+        "entity.other.attribute-name.class",
         "entity.other.inherited-class",
+        "keyword.control.as",
+        "keyword.control.export",
+        "keyword.control.from",
+        "keyword.control.import",
         "punctuation.definition.parameters",
-        "punctuation.definition.tag",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
-        "punctuation.section.embedded"
+        "punctuation.definition.tag",
+        "punctuation.section.embedded",
+        "source.css punctuation.definition.string",
+        "source.css string",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.stylus punctuation.definition.string",
+        "source.stylus string",
+        "variable.other.class.js",
+        "variable.other.property.js.jsx",
+        "variable.other.property.ts"
       ],
       "settings": {
         "fontStyle": "",
@@ -336,23 +335,29 @@
       }
     },
     {
+      "name": "Color-2 bold",
+      "scope": [],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#EBEA8B"
+      }
+    },
+    {
       "name": "Color-3",
       "scope": [
         "meta.property.object.js",
-        "variable.other",
         "string.other.link.title.markdown",
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-        "entity.name",
         "support.type",
         "support.orther.namespace.use.php",
         "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
         "support.type.sys-types",
-        "variable.other.readwrite",
-        "string.regexp"
+        "string.regexp",
+        "variable.other.constant.js.jsx"
       ],
       "settings": {
         "fontStyle": "",
@@ -361,7 +366,12 @@
     },
     {
       "name": "Color-3 italic",
-      "scope": ["variable.other.object", "variable.other.readwrite.alias"],
+      "scope": [
+        "variable.other.object",
+        "variable.other.readwrite.alias",
+        "variable.other.object.js.jsx",
+        "variable.other.object.ts"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#AEE9F5"
@@ -377,7 +387,11 @@
     },
     {
       "name": "Color-3 italic bold",
-      "scope": ["entity.name.tag", "meta.tag.sgml", "markup.deleted.git_gutter"],
+      "scope": [
+        "entity.name.tag",
+        "meta.tag.sgml",
+        "markup.deleted.git_gutter"
+      ],
       "settings": {
         "fontStyle": "italic bold",
         "foreground": "#AEE9F5"
@@ -401,7 +415,11 @@
     },
     {
       "name": "Color-4 italic",
-      "scope": ["constant.character.escape", "support.function", "entity.other.attribute-name"],
+      "scope": [
+        "constant.character.escape",
+        "support.function",
+        "entity.other.attribute-name"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#A8F79A"
@@ -454,7 +472,10 @@
     },
     {
       "name": "Color-6 italic",
-      "scope": ["punctuation.definition.comment", "punctuation.definition.block.rag.jsdoc"],
+      "scope": [
+        "punctuation.definition.comment",
+        "punctuation.definition.block.rag.jsdoc"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#A3B5C3"
