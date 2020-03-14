@@ -466,7 +466,9 @@
       "scope": [
         "constant.character.escape",
         "entity.other.attribute-name",
-        "support.function"
+        "support.function",
+        "support.class.console.js.jsx",
+        "support.class.console.ts"
       ],
       "settings": {
         "fontStyle": "italic",
