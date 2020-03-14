@@ -203,7 +203,11 @@
         "text.html.derivative",
         "variable.language.fenced.markdown",
         "variable.other.object.property.js.jsx",
-        "variable.other.readwrite.js.jsx"
+        "meta.paragraph.markdown",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.ini",
+        "source.dockerfile",
+        "variable.parameter.js.jsx"
       ],
       "settings": {
         "foreground": "#ECF6FF"
@@ -215,6 +219,7 @@
         "support.type.object",
         "meta.object-literal.key.js",
         "meta.object-literal.key.js.jsx",
+        "meta.object-literal.key.ts",
         "constant.other.symbol",
         "constant.other.key",
         "entity.other.inherited-class",
@@ -222,7 +227,14 @@
         "markup.inserted.git_gutter",
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
         "support.type.property-name",
-        "variable.graphql"
+        "variable.graphql",
+        "variable.parameter.ts",
+        "entity.name.type.class.js.jsx",
+        "entity.name.type.class.ts",
+        "variable.object.property.ts",
+        "entity.name.function.tagged-template.ts",
+        "variable.other.constant.property.ts",
+        "variable.object.property.js.jsx"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -238,7 +250,12 @@
         "source.css support.constant",
         "source.stylus constant",
         "source.stylus support.constant",
-        "string"
+        "string",
+        "constant.numeric.css",
+        "string.quoted.single.ts",
+        "string.quoted.single.js.jsx",
+        "string.quoted.single.scss",
+        "string.template.ts"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -264,8 +281,7 @@
         "keyword.other.unit",
         "keyword.other",
         "storage.type.class.jsdoc",
-        "punctuation.definition.block.tag.jsdoc",
-        "support.class"
+        "punctuation.definition.block.tag.jsdoc"
       ],
       "settings": {
         "fontStyle": "italic bold",
@@ -282,7 +298,15 @@
     },
     {
       "name": "Color-1 italic underline",
-      "scope": ["variable.function", "*url*", "*link*", "*uri*"],
+      "scope": [
+        "variable.function",
+        "*url*",
+        "*link*",
+        "*uri*",
+        "entity.name.function.member",
+        "markup.underline.link.image.markdown",
+        "markup.underline.link.markdown"
+      ],
       "settings": {
         "fontStyle": "italic underline",
         "foreground": "#ECF6FF"
@@ -293,6 +317,7 @@
       "name": "Color-2",
       "scope": [
         "constant.numeric.decimal.js.jsx",
+        "constant.numeric.decimal.ts",
         "constant.other.php",
         "constant.other.reference.link.markdown",
         "entity.other.attribute-name.class",
@@ -308,14 +333,16 @@
         "punctuation.section.embedded",
         "source.css punctuation.definition.string",
         "source.css string",
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "source.stylus punctuation.definition.string",
         "source.stylus string",
         "variable.other.class.js",
         "variable.other.property.js.jsx",
-        "variable.other.property.ts"
+        "variable.other.property.tsx",
+        "variable.other.property.ts",
+        "entity.name.type.ts",
+        "entity.name.type.instance.jsdoc",
+        "meta.type.object.graphql"
       ],
       "settings": {
         "fontStyle": "",
@@ -327,7 +354,8 @@
       "scope": [
         "source.js constant.other.object.key.js string.unquoted.label.js",
         "text.html.basic entity.other.attribute-name.html",
-        "text.html.basic entity.other.attribute-name"
+        "text.html.basic entity.other.attribute-name",
+        "variable.parameter.graphql"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -336,7 +364,9 @@
     },
     {
       "name": "Color-2 bold",
-      "scope": [],
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#EBEA8B"
@@ -349,7 +379,6 @@
         "string.other.link.title.markdown",
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "support.type",
         "support.orther.namespace.use.php",
         "meta.use.php",
@@ -357,7 +386,10 @@
         "markup.changed.git_gutter",
         "support.type.sys-types",
         "string.regexp",
-        "variable.other.constant.js.jsx"
+        "variable.other.constant.js.jsx",
+        "variable.other.jsdoc",
+        "variable.other.readwrite.ts",
+        "variable.other.readwrite.js.jsx"
       ],
       "settings": {
         "fontStyle": "",
@@ -370,7 +402,8 @@
         "variable.other.object",
         "variable.other.readwrite.alias",
         "variable.other.object.js.jsx",
-        "variable.other.object.ts"
+        "variable.other.object.ts",
+        "variable.other.readwrite.alias.js.jsx"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -379,7 +412,11 @@
     },
     {
       "name": "Color-3 bold",
-      "scope": "support.class.component",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "support.class.component",
+        "entity.name.tag.js.jsx"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#AEE9F5"
@@ -390,10 +427,19 @@
       "scope": [
         "entity.name.tag",
         "meta.tag.sgml",
-        "markup.deleted.git_gutter"
+        "markup.deleted.git_gutter",
+        "support.class.component.js.jsx"
       ],
       "settings": {
         "fontStyle": "italic bold",
+        "foreground": "#AEE9F5"
+      }
+    },
+    {
+      "name": "Color-3 italic underline",
+      "scope": [],
+      "settings": {
+        "fontStyle": "italic underline",
         "foreground": "#AEE9F5"
       }
     },
@@ -402,11 +448,13 @@
       "scope": [
         "variable.other.constant.object",
         "support.variable.property",
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "string.other.link",
         "meta.property-list.scss",
-        "markup.inserted"
+        "markup.inserted",
+        "entity.name.type.module.js.jsx",
+        "meta.type.object.graphql",
+        "variable.other.constant.property.js.jsx"
       ],
       "settings": {
         "fontStyle": "",
@@ -417,8 +465,8 @@
       "name": "Color-4 italic",
       "scope": [
         "constant.character.escape",
-        "support.function",
-        "entity.other.attribute-name"
+        "entity.other.attribute-name",
+        "support.function"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -430,6 +478,19 @@
       "scope": ["markup.underline"],
       "settings": {
         "fontStyle": "underline",
+        "foreground": "#A8F79A"
+      }
+    },
+    {
+      "name": "Color-4 bold",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "markup.underline",
+        "entity.name.tag.css",
+        "keyword.control.at-rule.fontface.scss"
+      ],
+      "settings": {
+        "fontStyle": "bold",
         "foreground": "#A8F79A"
       }
     },
@@ -449,7 +510,11 @@
       }
     },
     {
-      "scope": ["constant.language", "storage.modifier"],
+      "scope": [
+        "constant.language",
+        "storage.modifier",
+        "punctuation.definition.keyword.scss"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#F699D9"
@@ -457,9 +522,27 @@
     },
     {
       "name": "Color-5 italic",
-      "scope": ["keyword.control", "variable.language"],
+      "scope": [
+        "keyword.control",
+        "variable.language",
+        "punctuation.definition.string.begin.ts",
+        "punctuation.definition.string.end.ts",
+        "punctuation.definition.string.begin.scss",
+        "punctuation.definition.string.end.scss"
+      ],
       "settings": {
         "fontStyle": "italic",
+        "foreground": "#F699D9"
+      }
+    },
+    {
+      "name": "Color-5 bold",
+      "scope": [
+        "keyword.control.flow.js.jsx",
+        "keyword.generator.asterisk.js.jsx"
+      ],
+      "settings": {
+        "fontStyle": "italic bold",
         "foreground": "#F699D9"
       }
     },
