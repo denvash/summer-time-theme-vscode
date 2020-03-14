@@ -342,7 +342,8 @@
         "variable.other.property.ts",
         "entity.name.type.ts",
         "entity.name.type.instance.jsdoc",
-        "meta.type.object.graphql"
+        "meta.type.object.graphql",
+        "variable.other.constant.js.jsx"
       ],
       "settings": {
         "fontStyle": "",
@@ -386,7 +387,6 @@
         "markup.changed.git_gutter",
         "support.type.sys-types",
         "string.regexp",
-        "variable.other.constant.js.jsx",
         "variable.other.jsdoc",
         "variable.other.readwrite.ts",
         "variable.other.readwrite.js.jsx"
