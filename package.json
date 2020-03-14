@@ -2,7 +2,7 @@
   "name": "summer-time",
   "displayName": "Summer Time Theme",
   "description": "🍧 A modern Dark Material theme for VS-Code IDE 🍦",
-  "version": "1.15.0",
+  "version": "1.15.1",
   "publisher": "DennisVash",
   "engines": {
     "vscode": "^1.15.0"
