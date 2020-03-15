@@ -234,7 +234,9 @@
         "variable.object.property.ts",
         "entity.name.function.tagged-template.ts",
         "variable.other.constant.property.ts",
-        "variable.object.property.js.jsx"
+        "variable.object.property.js.jsx",
+        "support.class.builtin.js.jsx",
+        "support.class.builtin.ts"
       ],
       "settings": {
         "fontStyle": "bold",
