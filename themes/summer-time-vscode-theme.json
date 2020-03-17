@@ -532,7 +532,8 @@
         "punctuation.definition.string.begin.ts",
         "punctuation.definition.string.end.ts",
         "punctuation.definition.string.begin.scss",
-        "punctuation.definition.string.end.scss"
+        "punctuation.definition.string.end.scss",
+        "keyword.control.flow.js.jsx"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -541,10 +542,7 @@
     },
     {
       "name": "Color-5 bold",
-      "scope": [
-        "keyword.control.flow.js.jsx",
-        "keyword.generator.asterisk.js.jsx"
-      ],
+      "scope": ["keyword.generator.asterisk.js.jsx"],
       "settings": {
         "fontStyle": "italic bold",
         "foreground": "#F699D9"
