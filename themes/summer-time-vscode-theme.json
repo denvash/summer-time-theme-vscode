@@ -281,7 +281,8 @@
         "keyword.other.unit",
         "keyword.other",
         "storage.type.class.jsdoc",
-        "punctuation.definition.block.tag.jsdoc"
+        "punctuation.definition.block.tag.jsdoc",
+        "support.function.console.js.jsx"
       ],
       "settings": {
         "fontStyle": "italic bold",
