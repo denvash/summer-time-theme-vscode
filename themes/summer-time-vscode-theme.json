@@ -207,7 +207,9 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "source.ini",
         "source.dockerfile",
-        "variable.parameter.js.jsx"
+        "variable.parameter.js.jsx",
+        "variable.parameter.tsx",
+        "source.shell"
       ],
       "settings": {
         "foreground": "#ECF6FF"
@@ -392,7 +394,8 @@
         "string.regexp",
         "variable.other.jsdoc",
         "variable.other.readwrite.ts",
-        "variable.other.readwrite.js.jsx"
+        "variable.other.readwrite.js.jsx",
+        "variable.other.bracket.shell"
       ],
       "settings": {
         "fontStyle": "",
@@ -506,8 +509,7 @@
         "keyword",
         "punctuation",
         "meta.function-call",
-        "keyword.operator",
-        "meta.class"
+        "keyword.operator"
       ],
       "settings": {
         "fontStyle": "",
