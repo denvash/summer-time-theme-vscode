@@ -3,6 +3,8 @@ import { ActivatedRoute } from "@angular/router";
 import { Subscription } from "rxjs";
 import { Person, SearchService } from "../shared";
 
+console.log("hello");
+
 @Component({
   selector: "app-search",
   templateUrl: "./search.component.html",

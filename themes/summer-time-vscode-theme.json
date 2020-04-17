@@ -240,7 +240,8 @@
         "support.class.builtin.js.jsx",
         "support.class.builtin.ts",
         "entity.name.type.interface.tsx",
-        "entity.name.type.class.tsx"
+        "entity.name.type.class.tsx",
+        "support.function.console.tsx"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -479,7 +480,8 @@
         "support.function",
         "support.class.console.js.jsx",
         "support.class.console.ts",
-        "entity.name.type.tsx"
+        "entity.name.type.tsx",
+        "support.class.console.tsx"
       ],
       "settings": {
         "fontStyle": "italic",
