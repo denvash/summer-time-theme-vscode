@@ -350,7 +350,8 @@
         "entity.name.type.ts",
         "entity.name.type.instance.jsdoc",
         "meta.type.object.graphql",
-        "variable.other.constant.js.jsx"
+        "variable.other.constant.js.jsx",
+        "variable.other.constant.tsx"
       ],
       "settings": {
         "fontStyle": "",
