@@ -238,7 +238,9 @@
         "variable.other.constant.property.ts",
         "variable.object.property.js.jsx",
         "support.class.builtin.js.jsx",
-        "support.class.builtin.ts"
+        "support.class.builtin.ts",
+        "entity.name.type.interface.tsx",
+        "entity.name.type.class.tsx"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -460,7 +462,8 @@
         "markup.inserted",
         "entity.name.type.module.js.jsx",
         "meta.type.object.graphql",
-        "variable.other.constant.property.js.jsx"
+        "variable.other.constant.property.js.jsx",
+        "support.type.primitive.tsx"
       ],
       "settings": {
         "fontStyle": "",
@@ -474,7 +477,8 @@
         "entity.other.attribute-name",
         "support.function",
         "support.class.console.js.jsx",
-        "support.class.console.ts"
+        "support.class.console.ts",
+        "entity.name.type.tsx"
       ],
       "settings": {
         "fontStyle": "italic",
