@@ -20,7 +20,7 @@
     "dropdown.border": "#ffffff10",
     "editor.background": "#282c34",
     "editor.foreground": "#a6accd",
-    "editor.lineHighlightBackground": "#45354A",
+    "editor.lineHighlightBackground": "#ecf6ff1a",
     "editor.selectionBackground": "#717cb450",
     "editor.selectionHighlightBackground": "#ffcc0020",
     "editorBracketMatch.background": "#282c34",
@@ -180,14 +180,6 @@
         "markup.inline.raw.string.markdown",
         "markup.table",
         "markup.underline",
-        "meta.decorator.tsx",
-        "meta.function.calc.css",
-        "meta.group.braces.curly",
-        "meta.jsx.children",
-        "meta.jsx.js",
-        "meta.tag",
-        "meta.var.expr.js.jsx",
-        "meta.var.expr.js",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         "punctuation.definition.tag.html",
@@ -196,9 +188,7 @@
         "punctuation.separator.inheritance.php",
         "punctuation",
         "source.css.scss",
-        "source.js.jsx",
-        "source.json",
-        "source.tsx",
+        "source",
         "string constant.other.placeholder",
         "text.html.derivative",
         "variable.language.fenced.markdown",
@@ -208,8 +198,7 @@
         "source.ini",
         "source.dockerfile",
         "variable.parameter.js.jsx",
-        "variable.parameter.tsx",
-        "source.shell"
+        "variable.parameter.tsx"
       ],
       "settings": {
         "foreground": "#ECF6FF"
@@ -234,7 +223,6 @@
         "entity.name.type.class.js.jsx",
         "entity.name.type.class.ts",
         "entity.name.function.tagged-template.ts",
-        "variable.other.constant.property.ts",
         "support.class.builtin.js.jsx",
         "support.class.builtin.ts",
         "entity.name.type.interface.tsx",
@@ -259,7 +247,7 @@
         "constant.numeric.css",
         "string.quoted.single",
         "string.template.ts",
-        support.function.console
+        "support.function.console"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -387,14 +375,16 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "support.type",
         "support.orther.namespace.use.php",
-        "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
         "support.type.sys-types",
         "string.regexp",
         "variable.other.jsdoc",
         "variable.other.readwrite",
-        "variable.other.bracket.shell"
+        "variable.other.bracket.shell",
+        "variable.other.readwrite.tsx",
+        "meta.embedded.expression.tsx",
+        "meta.tag"
       ],
       "settings": {
         "fontStyle": "",
@@ -429,7 +419,6 @@
       "name": "Color-3 italic bold",
       "scope": [
         "entity.name.tag",
-        "meta.tag.sgml",
         "markup.deleted.git_gutter",
         "support.class.component.js.jsx"
       ],
@@ -457,7 +446,8 @@
         "markup.inserted",
         "entity.name.type.module.js.jsx",
         "meta.type.object.graphql",
-        "variable.other.constant.property.js.jsx",
+        "variable.other.constant.property",
+        "variable.other.constant.property.tsx",
         "support.type.primitive.tsx"
       ],
       "settings": {
