@@ -233,15 +233,13 @@
         "variable.parameter.ts",
         "entity.name.type.class.js.jsx",
         "entity.name.type.class.ts",
-        "variable.object.property.ts",
         "entity.name.function.tagged-template.ts",
         "variable.other.constant.property.ts",
-        "variable.object.property.js.jsx",
         "support.class.builtin.js.jsx",
         "support.class.builtin.ts",
         "entity.name.type.interface.tsx",
         "entity.name.type.class.tsx",
-        "support.function.console.tsx"
+        "variable.object.property"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -259,10 +257,9 @@
         "source.stylus support.constant",
         "string",
         "constant.numeric.css",
-        "string.quoted.single.ts",
-        "string.quoted.single.js.jsx",
-        "string.quoted.single.scss",
-        "string.template.ts"
+        "string.quoted.single",
+        "string.template.ts",
+        support.function.console
       ],
       "settings": {
         "fontStyle": "italic",
@@ -288,8 +285,7 @@
         "keyword.other.unit",
         "keyword.other",
         "storage.type.class.jsdoc",
-        "punctuation.definition.block.tag.jsdoc",
-        "support.function.console.js.jsx"
+        "punctuation.definition.block.tag.jsdoc"
       ],
       "settings": {
         "fontStyle": "italic bold",
@@ -397,8 +393,7 @@
         "support.type.sys-types",
         "string.regexp",
         "variable.other.jsdoc",
-        "variable.other.readwrite.ts",
-        "variable.other.readwrite.js.jsx",
+        "variable.other.readwrite",
         "variable.other.bracket.shell"
       ],
       "settings": {
@@ -410,10 +405,8 @@
       "name": "Color-3 italic",
       "scope": [
         "variable.other.object",
-        "variable.other.readwrite.alias",
-        "variable.other.object.js.jsx",
         "variable.other.object.ts",
-        "variable.other.readwrite.alias.js.jsx"
+        "variable.other.readwrite.alias"
       ],
       "settings": {
         "fontStyle": "italic",
