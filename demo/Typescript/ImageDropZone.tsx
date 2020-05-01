@@ -28,6 +28,7 @@ const ImageDropZone: React.FC = () => {
           ))}
         </ul>
       </aside>
+      <div>Hello</div>
     </Container>
   );
 };

@@ -198,7 +198,8 @@
         "source.ini",
         "source.dockerfile",
         "variable.parameter.js.jsx",
-        "variable.parameter.tsx"
+        "variable.parameter.tsx",
+        "meta.tag"
       ],
       "settings": {
         "foreground": "#ECF6FF"
@@ -208,9 +209,7 @@
       "name": "Color-1 bold",
       "scope": [
         "support.type.object",
-        "meta.object-literal.key.js",
-        "meta.object-literal.key.js.jsx",
-        "meta.object-literal.key.ts",
+        "meta.object-literal.key",
         "constant.other.symbol",
         "constant.other.key",
         "entity.other.inherited-class",
@@ -220,13 +219,12 @@
         "support.type.property-name",
         "variable.graphql",
         "variable.parameter.ts",
-        "entity.name.type.class.js.jsx",
-        "entity.name.type.class.ts",
+        "entity.name.type.class",
+        "entity.name.type.interface",
         "entity.name.function.tagged-template.ts",
+        "entity.name.type.module",
         "support.class.builtin.js.jsx",
         "support.class.builtin.ts",
-        "entity.name.type.interface.tsx",
-        "entity.name.type.class.tsx",
         "variable.object.property"
       ],
       "settings": {
@@ -332,7 +330,6 @@
         "variable.other.property.js.jsx",
         "variable.other.property.tsx",
         "variable.other.property.ts",
-        "entity.name.type.ts",
         "entity.name.type.instance.jsdoc",
         "meta.type.object.graphql",
         "variable.other.constant.js.jsx",
@@ -383,8 +380,7 @@
         "variable.other.readwrite",
         "variable.other.bracket.shell",
         "variable.other.readwrite.tsx",
-        "meta.embedded.expression.tsx",
-        "meta.tag"
+        "meta.embedded.expression.tsx"
       ],
       "settings": {
         "fontStyle": "",
@@ -444,7 +440,6 @@
         "string.other.link",
         "meta.property-list.scss",
         "markup.inserted",
-        "entity.name.type.module.js.jsx",
         "meta.type.object.graphql",
         "variable.other.constant.property",
         "variable.other.constant.property.tsx",
@@ -459,12 +454,10 @@
       "name": "Color-4 italic",
       "scope": [
         "constant.character.escape",
+        "entity.name.type",
         "entity.other.attribute-name",
-        "support.function",
-        "support.class.console.js.jsx",
-        "support.class.console.ts",
-        "entity.name.type.tsx",
-        "support.class.console.tsx"
+        "support.class.console",
+        "support.function"
       ],
       "settings": {
         "fontStyle": "italic",
