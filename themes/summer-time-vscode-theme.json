@@ -442,8 +442,7 @@
         "markup.inserted",
         "meta.type.object.graphql",
         "variable.other.constant.property",
-        "variable.other.constant.property.tsx",
-        "support.type.primitive.tsx"
+        "support.type.primitive"
       ],
       "settings": {
         "fontStyle": "",
