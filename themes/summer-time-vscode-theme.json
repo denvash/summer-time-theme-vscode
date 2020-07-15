@@ -207,12 +207,28 @@
       "foreground": "#AEE9F5",
       "fontStyle": ""
     },
+    "type": {
+      "foreground": "#AEE9F5",
+      "fontStyle": "italic"
+    },
+    "type.declaration": {
+      "foreground": "#AEE9F5",
+      "fontStyle": "italic"
+    },
+    "interface.defaultLibrary": {
+      "foreground": "#A8F79A",
+      "fontStyle": "italic"
+    },
     "variable.defaultLibrary": {
       "foreground": "#A8F79A",
       "fontStyle": "bold"
     },
+    "member.defaultLibrary": {
+      "foreground": "#AEE9F5",
+      "fontStyle": "italic"
+    },
     "*.defaultLibrary": {
-      "foreground": "#A8F79A",
+      "foreground": "#AEE9F5",
       "fontStyle": "italic"
     }
   },
@@ -340,13 +356,11 @@
         "constant.other.reference.link.markdown",
         "entity.other.attribute-name.class",
         "entity.other.inherited-class",
-        "keyword.control",
         "punctuation.section.embedded",
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "source.stylus string",
         "entity.name.type.instance",
         "meta.type.object.graphql",
-        "variable.other.property",
         "punctuation.definition.tag"
       ],
       "settings": {
@@ -357,10 +371,10 @@
     {
       "name": "Color-2 italic",
       "scope": [
-        "source constant.other.object.key string.unquoted.label",
-        "text.html.basic entity.other.attribute-name.html",
         "text.html.basic entity.other.attribute-name",
-        "variable.parameter.graphql"
+        "variable.parameter.graphql",
+        "variable.other.property",
+        "keyword.control"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -401,7 +415,7 @@
     },
     {
       "name": "Color-3 italic",
-      "scope": ["variable.other.object"],
+      "scope": ["variable.other.object", "variable.other.readwrite.alias"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#AEE9F5"
@@ -442,7 +456,7 @@
     {
       "name": "Color-4",
       "scope": [
-        "variable.other.constant.property",
+        "variable.other.constant",
         "support.variable.property",
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "string.other.link",
