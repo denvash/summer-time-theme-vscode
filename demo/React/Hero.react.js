@@ -32,11 +32,12 @@ const Container = styled.div`
 
 const spring = () => ({
   xy: [-100, -100],
-  config: config.gentle
+  config: config.gentle,
 });
 
 const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2];
-const trans = delta => (x, y) => `translate3d(${x / delta}px,${y / delta}px,0)`;
+const trans = (delta) => (x, y) =>
+  `translate3d(${x / delta}px,${y / delta}px,0)`;
 
 const Hero = () => {
   const [{ xy }, set] = useSpring(spring);
@@ -45,9 +46,10 @@ const Hero = () => {
     ({ clientX: x, clientY: y }) => set({ xy: calc(x, y) }),
     [set]
   );
-  const transform = useCallback(delta => ({ transform: xy.to(trans(delta)) }), [
-    xy
-  ]);
+  const transform = useCallback(
+    (delta) => ({ transform: xy.to(trans(delta)) }),
+    [xy]
+  );
 
   return (
     <Container onMouseMove={onMouseMove}>

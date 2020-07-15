@@ -167,15 +167,42 @@
     "statusBarItem.prominentBackground": "#F699D9",
     "statusBarItem.prominentHoverBackground": "#F699D9"
   },
+  // `#F699D9`
+  // `#AEE9F5`
+  // `#EBEA8B`
+  // `#A8F79A`
+  // `#ECF6FF`
+  // `#A3B5C3`
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "function.declaration.readonly": {
       "foreground": "#ECF6FF",
       "fontStyle": "underline"
     },
+
     "function.readonly": {
       "foreground": "#ECF6FF",
       "fontStyle": ""
+    },
+    "property.declaration": {
+      "foreground": "#ECF6FF",
+      "fontStyle": "bold"
+    },
+    "function.readonly.local": {
+      "foreground": "#EBEA8B",
+      "fontStyle": "italic"
+    },
+    "variable.declaration.readonly": {
+      "foreground": "#EBEA8B",
+      "fontStyle": ""
+    },
+    "parameter": {
+      "foreground": "#AEE9F5",
+      "fontStyle": ""
+    },
+    "variable.defaultLibrary": {
+      "foreground": "#AEE9F5",
+      "fontStyle": "bold"
     }
   },
   "tokenColors": [
@@ -202,8 +229,8 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "source.ini",
         "source.dockerfile",
-        "variable.parameter.js.jsx",
-        "variable.parameter.tsx",
+        "variable.parameter",
+        "variable.parameterx",
         "meta.tag"
       ],
       "settings": {
@@ -219,15 +246,14 @@
         "entity.other.inherited-class",
         "markup.heading",
         "markup.inserted.git_gutter",
-        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
         "support.type.property-name",
         "variable.graphql",
-        "variable.parameter.ts",
+        "variable.parameter",
         "entity.name.type.class",
         "entity.name.type.interface",
         "entity.name.type.module",
-        "support.class.builtin.js.jsx",
-        "support.class.builtin.ts",
+        "support.class.builtin",
+        "support.class.builtin",
         "variable.object.property",
         "meta.object-literal"
       ],
@@ -248,7 +274,7 @@
         "string",
         "constant.numeric.css",
         "string.quoted.single",
-        "string.template.ts",
+        "string.template",
         "support.function.console"
       ],
       "settings": {
@@ -274,8 +300,8 @@
         "constant.escape",
         "keyword.other.unit",
         "keyword.other",
-        "storage.type.class.jsdoc",
-        "punctuation.definition.block.tag.jsdoc"
+        "storage.type.class",
+        "punctuation.definition.block.tag"
       ],
       "settings": {
         "fontStyle": "italic bold",
@@ -310,8 +336,8 @@
     {
       "name": "Color-2",
       "scope": [
-        "constant.numeric.decimal.js.jsx",
-        "constant.numeric.decimal.ts",
+        "constant.numeric.decimal",
+        "constant.numeric.decimal",
         "constant.other.php",
         "constant.other.reference.link.markdown",
         "entity.other.attribute-name.class",
@@ -325,12 +351,10 @@
         "punctuation.definition.tag.end.html",
         "punctuation.definition.tag",
         "punctuation.section.embedded",
-        "source.css punctuation.definition.string",
         "source.css string",
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-        "source.stylus punctuation.definition.string",
         "source.stylus string",
-        "entity.name.type.instance.jsdoc",
+        "entity.name.type.instance",
         "meta.type.object.graphql",
         "variable.other.class",
         "variable.other.constant",
@@ -344,7 +368,7 @@
     {
       "name": "Color-2 italic",
       "scope": [
-        "source.js constant.other.object.key.js string.unquoted.label.js",
+        "source constant.other.object.key string.unquoted.label",
         "text.html.basic entity.other.attribute-name.html",
         "text.html.basic entity.other.attribute-name",
         "variable.parameter.graphql"
@@ -367,7 +391,7 @@
     {
       "name": "Color-3",
       "scope": [
-        "meta.property.object.js",
+        "meta.property.object",
         "string.other.link.title.markdown",
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
@@ -377,7 +401,7 @@
         "markup.changed.git_gutter",
         "support.type.sys-types",
         "string.regexp",
-        "variable.other.jsdoc",
+        "variable.other",
         "variable.other.bracket.shell",
         "variable.other.readwrite"
       ],
@@ -399,7 +423,7 @@
       "scope": [
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "support.class.component",
-        "entity.name.tag.js.jsx"
+        "entity.name.tag"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -411,7 +435,7 @@
       "scope": [
         "entity.name.tag",
         "markup.deleted.git_gutter",
-        "support.class.component.js.jsx"
+        "support.class.component"
       ],
       "settings": {
         "fontStyle": "italic bold",
@@ -496,7 +520,7 @@
       "scope": [
         "constant.language",
         "storage.modifier",
-        "punctuation.definition.keyword.scss"
+        "punctuation.definition.keyword"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -508,11 +532,8 @@
       "scope": [
         "keyword.control",
         "variable.language",
-        "punctuation.definition.string.begin.ts",
-        "punctuation.definition.string.end.ts",
-        "punctuation.definition.string.begin.scss",
-        "punctuation.definition.string.end.scss",
-        "keyword.control.flow.js.jsx"
+        "punctuation.definition.string",
+        "keyword.control.flow"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -521,7 +542,7 @@
     },
     {
       "name": "Color-5 bold",
-      "scope": ["keyword.generator.asterisk.js.jsx"],
+      "scope": ["keyword.generator.asterisk"],
       "settings": {
         "fontStyle": "italic bold",
         "foreground": "#F699D9"
@@ -538,7 +559,7 @@
       "name": "Color-6 italic",
       "scope": [
         "punctuation.definition.comment",
-        "punctuation.definition.block.rag.jsdoc"
+        "punctuation.definition.block.rag"
       ],
       "settings": {
         "fontStyle": "italic",
