@@ -6,6 +6,8 @@ import tw from "twin.macro";
 
 console.log("start");
 
+// Comment type
+/* Comment type 2 */
 const Logo = styled(LogoParallax)`
   ${tw`z-0 absolute right-0
      w-1/2 sm:w-2/5 md:w-1/3 lg:w-1/3 xl:w-1/4

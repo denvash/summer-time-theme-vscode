@@ -179,14 +179,17 @@
       "foreground": "#ECF6FF",
       "fontStyle": "underline"
     },
-
-    "function.readonly": {
-      "foreground": "#ECF6FF",
-      "fontStyle": ""
-    },
     "property.declaration": {
       "foreground": "#ECF6FF",
       "fontStyle": "bold"
+    },
+    "function.readonly": {
+      "foreground": "#ECF6FF",
+      "fontStyle": "italic underline"
+    },
+    "parameter.declaration": {
+      "foreground": "#ECF6FF",
+      "fontStyle": ""
     },
     "function.readonly.local": {
       "foreground": "#EBEA8B",
@@ -196,13 +199,21 @@
       "foreground": "#EBEA8B",
       "fontStyle": ""
     },
+    "*.readonly": {
+      "foreground": "#EBEA8B",
+      "fontStyle": ""
+    },
     "parameter": {
       "foreground": "#AEE9F5",
       "fontStyle": ""
     },
     "variable.defaultLibrary": {
-      "foreground": "#AEE9F5",
+      "foreground": "#A8F79A",
       "fontStyle": "bold"
+    },
+    "*.defaultLibrary": {
+      "foreground": "#A8F79A",
+      "fontStyle": "italic"
     }
   },
   "tokenColors": [
@@ -217,7 +228,6 @@
         "markup.inline.raw.string.markdown",
         "markup.table",
         "markup.underline",
-        "punctuation.definition",
         "punctuation.section.embedded",
         "punctuation.separator.inheritance.php",
         "punctuation",
@@ -230,7 +240,6 @@
         "source.ini",
         "source.dockerfile",
         "variable.parameter",
-        "variable.parameterx",
         "meta.tag"
       ],
       "settings": {
@@ -300,8 +309,7 @@
         "constant.escape",
         "keyword.other.unit",
         "keyword.other",
-        "storage.type.class",
-        "punctuation.definition.block.tag"
+        "storage.type.class"
       ],
       "settings": {
         "fontStyle": "italic bold",
@@ -318,15 +326,7 @@
     },
     {
       "name": "Color-1 italic underline",
-      "scope": [
-        "variable.function",
-        "*url*",
-        "*link*",
-        "*uri*",
-        "entity.name.function.member",
-        "markup.underline.link.image.markdown",
-        "markup.underline.link.markdown"
-      ],
+      "scope": ["variable.function", "markup.underline.link"],
       "settings": {
         "fontStyle": "italic underline",
         "foreground": "#ECF6FF"
@@ -337,28 +337,17 @@
       "name": "Color-2",
       "scope": [
         "constant.numeric.decimal",
-        "constant.numeric.decimal",
-        "constant.other.php",
         "constant.other.reference.link.markdown",
         "entity.other.attribute-name.class",
         "entity.other.inherited-class",
-        "keyword.control.as",
-        "keyword.control.export",
-        "keyword.control.from",
-        "keyword.control.import",
-        "punctuation.definition.parameters",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
-        "punctuation.definition.tag",
+        "keyword.control",
         "punctuation.section.embedded",
-        "source.css string",
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "source.stylus string",
         "entity.name.type.instance",
         "meta.type.object.graphql",
-        "variable.other.class",
-        "variable.other.constant",
-        "variable.other.property"
+        "variable.other.property",
+        "punctuation.definition.tag"
       ],
       "settings": {
         "fontStyle": "",
@@ -494,8 +483,7 @@
       "scope": [
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "markup.underline",
-        "entity.name.tag.css",
-        "keyword.control.at-rule.fontface.scss"
+        "entity.name.tag.css"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -504,13 +492,7 @@
     },
     {
       "name": "Color-5",
-      "scope": [
-        "storage.type",
-        "keyword",
-        "punctuation",
-        "meta.function-call",
-        "keyword.operator"
-      ],
+      "scope": ["keyword", "meta.function-call", "punctuation", "storage.type"],
       "settings": {
         "fontStyle": "",
         "foreground": "#F699D9"
@@ -530,10 +512,10 @@
     {
       "name": "Color-5 italic",
       "scope": [
-        "keyword.control",
         "variable.language",
         "punctuation.definition.string",
-        "keyword.control.flow"
+        "keyword.control.flow",
+        "keyword.control.default"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -559,7 +541,7 @@
       "name": "Color-6 italic",
       "scope": [
         "punctuation.definition.comment",
-        "punctuation.definition.block.rag"
+        "punctuation.definition.block"
       ],
       "settings": {
         "fontStyle": "italic",
