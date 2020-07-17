@@ -87,7 +87,6 @@
     "notifications.foreground": "#a6accd",
     "panel.background": "#282c34",
     "panel.border": "#282c3460",
-    "panel.dropBackground": "#a6accd",
     "panelTitle.activeBorder": "#80cbc4",
     "panelTitle.activeForeground": "#ffffff",
     "panelTitle.inactiveForeground": "#a6accd",
@@ -192,10 +191,14 @@
       "fontStyle": ""
     },
     "function.readonly.local": {
+      "foreground": "#ECF6FF",
+      "fontStyle": "italic underline"
+    },
+    "variable.declaration.readonly": {
       "foreground": "#EBEA8B",
       "fontStyle": "italic"
     },
-    "variable.declaration.readonly": {
+    "variable.readonly": {
       "foreground": "#EBEA8B",
       "fontStyle": ""
     },
@@ -203,16 +206,20 @@
       "foreground": "#EBEA8B",
       "fontStyle": ""
     },
+    "property": {
+      "foreground": "#AEE9F5",
+      "fontStyle": ""
+    },
     "parameter": {
       "foreground": "#AEE9F5",
       "fontStyle": ""
     },
     "type": {
-      "foreground": "#AEE9F5",
+      "foreground": "#A8F79A",
       "fontStyle": "italic"
     },
     "type.declaration": {
-      "foreground": "#AEE9F5",
+      "foreground": "#A8F79A",
       "fontStyle": "italic"
     },
     "interface.defaultLibrary": {
@@ -239,24 +246,10 @@
         "constant.other.color",
         "keyword.other.substitution",
         "keyword.other.template",
-        "markup.bold",
-        "markup.fenced_code.block.markdown",
-        "markup.inline.raw.string.markdown",
-        "markup.table",
-        "markup.underline",
         "punctuation.section.embedded",
         "punctuation.separator.inheritance.php",
         "punctuation",
-        "source",
-        "string constant.other.placeholder",
-        "text.html.derivative",
-        "variable.language.fenced.markdown",
-        "meta.paragraph.markdown",
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-        "source.ini",
-        "source.dockerfile",
-        "variable.parameter",
-        "meta.tag"
+        "source"
       ],
       "settings": {
         "foreground": "#ECF6FF"
@@ -370,12 +363,7 @@
     },
     {
       "name": "Color-2 italic",
-      "scope": [
-        "text.html.basic entity.other.attribute-name",
-        "variable.parameter.graphql",
-        "variable.other.property",
-        "keyword.control"
-      ],
+      "scope": ["variable.parameter.graphql"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#EBEA8B"
@@ -399,14 +387,11 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "support.type",
-        "support.orther.namespace.use.php",
-        "support.other.namespace.php",
-        "markup.changed.git_gutter",
-        "support.type.sys-types",
         "string.regexp",
         "variable.other",
         "variable.other.bracket.shell",
-        "variable.other.readwrite"
+        "variable.other.readwrite",
+        "variable.other.property"
       ],
       "settings": {
         "fontStyle": "",
@@ -513,11 +498,7 @@
       }
     },
     {
-      "scope": [
-        "constant.language",
-        "storage.modifier",
-        "punctuation.definition.keyword"
-      ],
+      "scope": ["constant.language", "storage.modifier"],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#F699D9"
@@ -525,12 +506,7 @@
     },
     {
       "name": "Color-5 italic",
-      "scope": [
-        "variable.language",
-        "punctuation.definition.string",
-        "keyword.control.flow",
-        "keyword.control.default"
-      ],
+      "scope": ["keyword.control", "punctuation.definition"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#F699D9"
@@ -553,10 +529,7 @@
     },
     {
       "name": "Color-6 italic",
-      "scope": [
-        "punctuation.definition.comment",
-        "punctuation.definition.block"
-      ],
+      "scope": ["punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#A3B5C3"
