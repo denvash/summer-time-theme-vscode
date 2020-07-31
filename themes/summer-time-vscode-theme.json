@@ -354,7 +354,8 @@
         "source.stylus string",
         "entity.name.type.instance",
         "meta.type.object.graphql",
-        "punctuation.definition.tag"
+        "punctuation.definition.tag",
+        "entity.name.fragment.graphql"
       ],
       "settings": {
         "fontStyle": "",
@@ -372,7 +373,8 @@
     {
       "name": "Color-2 bold",
       "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "support.type.graphql"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -391,7 +393,8 @@
         "variable.other",
         "variable.other.bracket.shell",
         "variable.other.readwrite",
-        "variable.other.property"
+        "variable.other.property",
+        "variable.graphql"
       ],
       "settings": {
         "fontStyle": "",
@@ -400,7 +403,11 @@
     },
     {
       "name": "Color-3 italic",
-      "scope": ["variable.other.object", "variable.other.readwrite.alias"],
+      "scope": [
+        "variable.other.object",
+        "variable.other.readwrite.alias",
+        "variable.fragment.graphql"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#AEE9F5"
@@ -441,6 +448,7 @@
     {
       "name": "Color-4",
       "scope": [
+        "support.type",
         "variable.other.constant",
         "support.variable.property",
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
@@ -491,14 +499,25 @@
     },
     {
       "name": "Color-5",
-      "scope": ["keyword", "meta.function-call", "punctuation", "storage.type"],
+      "scope": [
+        "keyword",
+        "meta.function-call",
+        "punctuation",
+        "storage.type",
+        "entity.name.fragment.graphql",
+        "punctuation.operation.graphql"
+      ],
       "settings": {
         "fontStyle": "",
         "foreground": "#F699D9"
       }
     },
     {
-      "scope": ["constant.language", "storage.modifier"],
+      "scope": [
+        "constant.language",
+        "storage.modifier",
+        "entity.name.tag.grapahql.js"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#F699D9"
@@ -506,7 +525,11 @@
     },
     {
       "name": "Color-5 italic",
-      "scope": ["keyword.control", "punctuation.definition"],
+      "scope": [
+        "keyword.control",
+        "punctuation.definition",
+        "keyword.fragment.graphql"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#F699D9"
