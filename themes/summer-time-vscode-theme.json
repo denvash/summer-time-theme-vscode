@@ -271,9 +271,9 @@
         "entity.name.type.interface",
         "entity.name.type.module",
         "support.class.builtin",
-        "support.class.builtin",
         "variable.object.property",
-        "meta.object-literal"
+        "meta.object-literal",
+        "support.class",
       ],
       "settings": {
         "fontStyle": "bold",
@@ -293,7 +293,8 @@
         "constant.numeric.css",
         "string.quoted.single",
         "string.template",
-        "support.function.console"
+        "support.function.console",
+        "meta.function-call.object"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -318,7 +319,7 @@
         "constant.escape",
         "keyword.other.unit",
         "keyword.other",
-        "storage.type.class"
+        "entity.name.type.class.php",
       ],
       "settings": {
         "fontStyle": "italic bold",
@@ -327,7 +328,7 @@
     },
     {
       "name": "Color-1 italic underline bold",
-      "scope": ["variable.function.constructor"],
+      "scope": ["variable.function.constructor", "meta.function-call.static"],
       "settings": {
         "fontStyle": "italic underline bold",
         "foreground": "#ECF6FF"
@@ -335,7 +336,7 @@
     },
     {
       "name": "Color-1 italic underline",
-      "scope": ["variable.function", "markup.underline.link"],
+      "scope": ["variable.function", "markup.underline.link","meta.function-call"],
       "settings": {
         "fontStyle": "italic underline",
         "foreground": "#ECF6FF"
@@ -355,7 +356,9 @@
         "entity.name.type.instance",
         "meta.type.object.graphql",
         "punctuation.definition.tag",
-        "entity.name.fragment.graphql"
+        "entity.name.fragment.graphql",
+        "meta.function.php",
+        "variable.other.php",
       ],
       "settings": {
         "fontStyle": "",
@@ -364,7 +367,7 @@
     },
     {
       "name": "Color-2 italic",
-      "scope": ["variable.parameter.graphql"],
+      "scope": ["variable.parameter.graphql","support.function.magic","storage.type.shape"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#EBEA8B"
@@ -374,7 +377,6 @@
       "name": "Color-2 bold",
       "scope": [
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-        "support.type.graphql"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -394,7 +396,6 @@
         "variable.other.bracket.shell",
         "variable.other.readwrite",
         "variable.other.property",
-        "variable.graphql"
       ],
       "settings": {
         "fontStyle": "",
@@ -406,7 +407,8 @@
       "scope": [
         "variable.other.object",
         "variable.other.readwrite.alias",
-        "variable.fragment.graphql"
+        "variable.fragment.graphql",
+        "entity.name.type.typedecl"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -456,7 +458,8 @@
         "meta.property-list.scss",
         "markup.inserted",
         "meta.type.object.graphql",
-        "support.type.primitive"
+        "support.type.primitive",
+        "storage.type",
       ],
       "settings": {
         "fontStyle": "",
@@ -470,10 +473,21 @@
         "entity.name.type",
         "entity.other.attribute-name",
         "support.class.console",
-        "support.function"
+        "support.function",
+        "support.type.graphql"
       ],
       "settings": {
         "fontStyle": "italic",
+        "foreground": "#A8F79A"
+      }
+    },
+    {
+      "name": "Color-4 italic underline",
+      "scope": [
+
+      ],
+      "settings": {
+        "fontStyle": "italic underline",
         "foreground": "#A8F79A"
       }
     },
@@ -501,11 +515,10 @@
       "name": "Color-5",
       "scope": [
         "keyword",
-        "meta.function-call",
         "punctuation",
-        "storage.type",
         "entity.name.fragment.graphql",
-        "punctuation.operation.graphql"
+        "punctuation.operation.graphql",
+        "storage.modifier.php"
       ],
       "settings": {
         "fontStyle": "",
@@ -516,7 +529,8 @@
       "scope": [
         "constant.language",
         "storage.modifier",
-        "entity.name.tag.grapahql.js"
+        "entity.name.tag.grapahql.js",
+        "constant.other"
       ],
       "settings": {
         "fontStyle": "bold",
