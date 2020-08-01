@@ -459,7 +459,8 @@
         "markup.inserted",
         "meta.type.object.graphql",
         "support.type.primitive",
-        "storage.type",
+
+
       ],
       "settings": {
         "fontStyle": "",
@@ -474,7 +475,8 @@
         "entity.other.attribute-name",
         "support.class.console",
         "support.function",
-        "support.type.graphql"
+        "support.type.graphql",
+        "storage.type.php"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -518,7 +520,8 @@
         "punctuation",
         "entity.name.fragment.graphql",
         "punctuation.operation.graphql",
-        "storage.modifier.php"
+        "storage.modifier.php",
+        "storage.type",
       ],
       "settings": {
         "fontStyle": "",
