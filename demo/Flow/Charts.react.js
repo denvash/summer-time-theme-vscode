@@ -1,11 +1,3 @@
-/**
- * Copyright 2004-present Facebook. All Rights Reserved.
- *
- * @emails oncall+onavo_data_dev
- * @flow strict-local
- * @format
- */
-
 "use strict";
 
 import type { MintAppsLineChartsQueryResponse } from "MintAppsLineChartsQuery.graphql";

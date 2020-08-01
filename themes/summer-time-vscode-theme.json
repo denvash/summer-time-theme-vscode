@@ -274,6 +274,7 @@
         "variable.object.property",
         "meta.object-literal",
         "support.class",
+        "entity.name.function.tagged-template"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -518,7 +519,6 @@
       "scope": [
         "keyword",
         "punctuation",
-        "entity.name.fragment.graphql",
         "punctuation.operation.graphql",
         "storage.modifier.php",
         "storage.type",
